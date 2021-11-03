@@ -1,0 +1,20 @@
+h1{
+    border: 5px solid black;
+}
+h2 {
+    border-bottom: 5px dotted red;
+
+
+}
+
+h3 {
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+h4{
+    border-left: blue 10px solid;
+    background-color: aqua;
+    
+    
+}

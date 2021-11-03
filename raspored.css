@@ -1,0 +1,38 @@
+table {
+    background-color: cadetblue;
+    width: 100%;
+    border-collapse: collapse;
+    border: solid black 3px;
+}
+
+td {
+    border: black 1px solid;
+    text-align: center;
+    height: 50px;
+    vertical-align: bottom;
+    padding: 10px;
+    
+}
+/* tr:nth-child(even) {
+    background-color: rgb(151, 91, 91);
+}
+
+tr:nth-child(odd){
+    background-color: rgb(146, 146, 180); */
+/* } */
+
+/* .klasa {
+    background-color: blueviolet;
+} */
+
+th {
+    background-color: chartreuse;
+    height: 25px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+
+#ena {
+    text-align: left;
+}

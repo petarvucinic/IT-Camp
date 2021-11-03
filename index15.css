@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+tr {
+    border-top: solid 2px ;
+    border-bottom: orange 3px solid ;
+}
+td {
+    border-right: rgb(114, 104, 104) 2px solid;
+    text-align: center;
+    height: 35px;
+    vertical-align: bottom;
+    padding: 10px;
+}
+
+tr:nth-child(odd){
+    background-color:rgb(240, 182, 76);
+}
+
+tr:nth-child(even){
+    background-color:rgb(255, 255, 255);
+}
+
+#zaglavlje {
+    background-color: orange;
+    height: 55px;
+    padding: 12px;
+    border: solid white 3px;
+}
+
+#desno {
+    border: none;
+}
+
+#kraj {
+    background-color: grey;
+
+}

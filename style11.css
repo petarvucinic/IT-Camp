@@ -1,0 +1,53 @@
+.klasa_div {
+    background-color: rgb(101, 173, 173);
+    text-align: center;
+    width: 800px ;
+    height: 300px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 5px 18px;
+    border: 3px black solid;
+    border-radius: 24px;
+
+}
+
+.klasa_div2 {
+    background-color: brown;
+    text-align: right ;
+}
+
+.klasa_div3 {
+    background-color: rgb(83, 168, 76);
+    text-align: left;
+}
+
+.button {
+    padding: 12px 20px;
+    border: 2px black solid;
+    text-decoration: none;
+    background-color: green;
+
+}
+
+.button2 {
+    background-color: chocolate;
+}
+
+.button3 {
+    background-color: cornflowerblue;
+}
+
+.paragraf {
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+.paragraf2 {
+    color: rgb(204, 163, 0);
+}
+.paragraf3 {
+    color: crimson;
+}

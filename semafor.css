@@ -1,0 +1,26 @@
+.klasa_pozadina {
+    background-color: rgb(34, 30, 30);
+    width: 300px;
+    height: 580px;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+
+.klasa_svetla {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 20px auto;
+
+
+}
+
+.klasa_svetla2 {
+    background-color: yellow;
+}
+
+.klasa_svetla3 {
+    background-color: green;
+}

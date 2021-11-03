@@ -1,0 +1,21 @@
+h1 {
+    color: rgb(51, 15, 78);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px dotted blue;
+    margin: 15px;
+    padding: 10px ;
+    border-radius: 30px;
+    
+
+}
+h2 {
+    color: aqua;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    border-top: 2px solid coral;
+    border: 2px solid brown;
+    margin: 10px 20px 10px 20px;
+    padding: 30px 15px;
+    
+}

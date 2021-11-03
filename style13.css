@@ -1,0 +1,19 @@
+.klasa_div{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    /* margin-top: 15px; */
+    border-radius: 100px;
+    
+    
+}
+
+.klasa_div2 {
+    background-color: yellow;
+}
+
+.klasa_div3 {
+    background-color: green;
+}
+
