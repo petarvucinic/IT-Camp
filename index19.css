@@ -1,0 +1,11 @@
+.bcg {
+    height: 600px;
+    background-image: url("https://th.bing.com/th/id/R.f5845bf873e18d212561ee05faf43376?rik=63aO4GvmfkXsrg&riu=http%3a%2f%2fshreevedschool.in%2fwp-content%2fuploads%2f2017%2f03%2fDSCN5315.jpg&ehk=CDKJ0%2fLgCfWVhAtk%2b9XaMVsifZ45R0v8ChQki4t8wpw%3d&risl=&pid=ImgRaw&r=0");
+    background-size: 100%;
+    text-align: center;
+    font-size: 50px;
+    background-position: top;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+}

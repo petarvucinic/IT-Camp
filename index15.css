@@ -5,13 +5,13 @@ table {
 }
 
 tr {
-    border-top: solid 2px ;
+    /* border-top: orange solid 3px ; */
     border-bottom: orange 3px solid ;
 }
 td {
     border-right: rgb(114, 104, 104) 2px solid;
     text-align: center;
-    height: 35px;
+    height: 15px;
     vertical-align: bottom;
     padding: 10px;
 }

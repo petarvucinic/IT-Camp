@@ -4,10 +4,7 @@
     width: 800px ;
     height: 300px;
     text-align: center;
-    margin-top: 35px;
-    margin-bottom: 35px;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin: 35px auto;
     padding: 5px 18px;
     border: 3px black solid;
     border-radius: 24px;

@@ -1,0 +1,35 @@
+div {
+    background-color: rgb(137, 180, 180);
+    height: 80px;
+    border-bottom: orange 3px solid;
+}
+
+
+li {
+    font-size: 25px;
+    float: left;
+    list-style: none;
+    margin: 25px 25px;
+    /* padding: 12px; */
+}
+
+li:hover {
+    color: grey;
+    font-size: 30px;
+}
+
+i {
+    float: right;
+    font-size: 25px;
+    margin: 25px 25px;
+    color: white;
+}
+
+.bcg {
+    height: 900px;
+    background-image: url("https://th.bing.com/th/id/R.3ab7febc66383049f33acfee467f0e9f?rik=CZcSCBW45ey%2bgA&pid=ImgRaw&r=0");
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+}
