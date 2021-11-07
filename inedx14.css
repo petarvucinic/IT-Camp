@@ -1,6 +1,7 @@
 table {
     width: 100%;
     border: 1 px black solid;
+/*  kao da ih spaja merge    */
     border-collapse: collapse;
 }
 td {
