@@ -1,16 +1,15 @@
 table {
     width: 100%;
     border: 1 px black solid;
+/*  kao da ih spaja merge    */
     border-collapse: collapse;
 }
-
 td {
     border: black 1px solid;
     text-align: center;
     height: 50px;
     vertical-align: bottom;
     padding: 10px;
-
 }
 
 tr:nth-child(even){
