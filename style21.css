@@ -1,0 +1,18 @@
+.parent {
+    margin: auto;
+    background-color: brown;
+    padding: 30px;
+    width: 500px;
+    height: 400px;
+    position: relative;
+
+}
+
+.child {
+    background-color: cadetblue;
+    height: 100px;
+    width: 200px;
+    padding: 30px;
+    position: sticky;
+    top: 0;
+}
