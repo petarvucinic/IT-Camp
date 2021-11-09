@@ -1,0 +1,37 @@
+.div1 {
+    background-color: red ;
+    height: 65px;
+    width: 700px;
+    border: solid 1px black;
+    position: sticky;
+    margin-bottom: 15px;
+}
+
+.div2 {
+    background-color: orange;
+    position: fixed;
+    width: 300px;
+    height: 800px;
+    border: dotted 2.5px black;
+
+}
+
+.div3 {
+    background-color: lightseagreen;
+    height: 700px;
+    width: 650px;
+    position: relative;
+    left: 800px;
+    border: red 3px solid;
+}
+
+.div4 {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    background-color: crimson;
+    border-radius: 100%;
+
+}
