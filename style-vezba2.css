@@ -1,0 +1,58 @@
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 60px auto;
+    
+}
+
+.div_ {
+    height: 600px;
+    width: 550px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 30px;
+   
+}
+
+tr {
+    border: 1px solid black;
+}
+
+th {
+    border: solid 1px black;
+    background-color: rgb(197, 11, 197);
+    height: 30px;
+    padding: 9px;
+    width: 125px ;
+}
+
+.tr_boja {
+    background-color: rgb(226, 179, 226);
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+#poslednji {
+    text-align: right;
+}
+
+#prvi_tekst {
+    font-size: 35px;
+    color: rgb(168, 87, 87);
+    text-align: center;
+}
+
+#drugi_tekst {
+    font-size: 45px;
+    color: #00000;
+    text-align: center;
+}
+
+#treci_tekst {
+    font-size: 45px;
+    color: black;
+    text-align: center;
+}
+
