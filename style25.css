@@ -1,0 +1,28 @@
+/* form input  */
+
+textarea {
+    background-color: rgb(187, 216, 216);
+}
+
+#ime {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+#prezime {
+    color: blueviolet;
+}
+
+div {
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    margin: 20px auto;
+    padding: 60px;
+}
+
+form {
+    margin: auto;
+}
+
+
