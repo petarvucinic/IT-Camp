@@ -1,0 +1,47 @@
+
+
+#pocetni {
+    height: 550px;
+    width: 650px;
+    margin: 15px auto;
+    border: 0.2px solid grey;
+    background-color: white;
+    padding: 40px;
+    border-radius: 37px;
+}
+
+#tekst1 {
+    font-size: small;
+    margin-bottom: 30px;
+}
+
+.boks {
+    border-radius: 32px;
+    padding: 12px;
+    margin-bottom: 37px;
+    margin-top: 8px;
+    background-color: rgb(238, 237, 237);
+    border: 0.5px solid grey;
+}
+
+#boks2 {
+    display: inline-block;
+} 
+
+#exp {
+    margin-top: 8px;
+    border-radius: 37px;
+    padding: 25.5px;
+    background-color: rgb(238, 237, 237);
+
+}
+
+#dugme {
+    background-color: #Fe1c5e;
+    width: 92px;
+    padding: 9px;
+    border-radius: 37px;
+    color: white;
+    margin-top: 32.5px;
+    border: solid 1px #ac0739;
+}
