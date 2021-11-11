@@ -1,0 +1,56 @@
+.div_klasa {
+    margin: 20px auto;
+    border: 1px solid grey;
+    height: 550px;
+    width: 800px;
+    background-color: white;
+
+}
+
+.div2_klasa {
+    position: relative;
+    margin: 17px 8px;
+    left: 348px;
+    height: 17px;
+    width: 17px;
+    border-radius: 100%;
+    background-color: gray;
+    display: inline-block;
+
+}
+
+.div3_klasa {
+    background-color: orange;
+}
+
+#tekst1 {
+    font-size: 30px;
+    color: orange;
+    text-align: center;
+    margin-top: 63px;
+}
+
+#tekst2 {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 19px;
+}
+
+#dugme {
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 2px;
+    color: white;
+    font-size: 15px;
+    margin: 35px 360px;
+    
+
+}
+
+#name_ {
+    padding: 15px;
+    margin-top: 35px;
+    margin-left: 200px;
+    width: 420px;
+    
+}
