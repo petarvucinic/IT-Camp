@@ -1,0 +1,63 @@
+.div1 {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(34, 8, 95);
+    border-bottom: orange 3px solid;
+    /* padding:; */
+}
+
+#tekst {
+    color: orange;
+    font-size: 24px;
+    margin: 20px 35px;
+    display: inline-block;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#tekst:hover {
+    text-decoration: underline;
+}
+
+#dugme {
+    border: 2px solid black;
+    background-color: orange;
+    border-radius: 15px;
+    margin-left: 665px;
+    padding: 13px;
+    color: white;
+
+}
+#dugme::placeholder {
+    color: red;
+}
+#dugme:hover {
+    background-color: blueviolet;
+}
+
+#tekst2 {
+    /* margin-top: 150px; */
+    text-align: center;
+    font-size: 50px;
+}
+
+#parf {
+    margin-top: 50px;
+    text-align: center
+    ;
+}
+
+#bcg {
+    background-image: url(https://images.pexels.com/photos/9078233/pexels-photo-9078233.jpeg?cs=srgb&dl=pexels-angela-wilson-9078233.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    padding-top: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
