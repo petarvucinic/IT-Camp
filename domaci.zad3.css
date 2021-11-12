@@ -1,0 +1,46 @@
+.div1 {
+    height: 520px;
+    width: 400px;
+    background-color: wheat;
+    margin: 15px auto;
+    padding: 25px;
+    position: relative;
+}
+
+#naslov {
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+
+}
+
+#opcije {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.radio_ {
+    color: #c009c0;
+}
+
+
+#dugme {
+    background-color: #Fe1c5e;
+    width: 92px;
+    padding: 9px;
+    color: white;
+    margin-top: 32.5px;
+    position: absolute;
+    left: 328px;
+}
+
+#area {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2.5px #Fe1c5e solid;
+}
+
+#tekst2 {
+    margin-top: 10px;
+    /* margin-bottom: 6px; */
+}
