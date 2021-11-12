@@ -39,18 +39,19 @@
 #dugme {
     background-color: orangered;
     padding: 10px;
-    border-radius: 2px;
+    border-radius: 6px;
     color: white;
     font-size: 15px;
-    margin: 35px 360px;
-    width: 90px;
+    margin: 35px 350px;
+    border: solid 2px rgb(156, 44, 3);
+    width: 95px;
 
 }
 
 #name_ {
     padding: 15px;
     margin-top: 35px;
-    margin-left: 200px;
-    width: 420px;
+    margin-left: 155px;
+    width: 460px;
     
 }
