@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div1 {
+    background-color: rgb(42, 42, 43);
+    height: 75px;
+    border-bottom: 3px solid orange;
+}
+
+li {
+    list-style: none;
+    color: orange;
+    font-size: 20px;
+    display: inline-block;
+    margin: 22px 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+.kartica { 
+    margin: 160px auto;
+    border: 2px solid black;
+    height: 430px; 
+    width: 510px;
+    background-color: rgb(228, 182, 96);
+    padding: 25px;
+}
+
+#x {
+    background-color: transparent;
+    width: 450px;
+    border: none;
+    border-bottom: 3px solid black;
+    margin-bottom: 25px;
+    margin-top: 35px;
+}
+
+
+#y {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    
+}
