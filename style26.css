@@ -1,0 +1,16 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+input {
+    display: block;
+}
+
+div:hover {
+    display: none;
+}
