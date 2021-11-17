@@ -39,13 +39,13 @@ a {
 #tekst1 {
     text-align: center;
     /* margin-bottom: 20px; */
-    margin-top: 250px;
+    justify-content: center;
 
 }
 
 #tekst2 {
     text-align: center;
-    margin-bottom: 15px;
+    justify-content: center;
 }
 
 #dugme {
