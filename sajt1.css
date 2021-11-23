@@ -3,7 +3,7 @@
     height: 75px;
     width: 100%;
     margin: 0px;
-    background-color: #4e333a;
+    background-color: #282A35;
     display: flex;
     justify-content: space-evenly;
     position: relative;
@@ -29,9 +29,45 @@ i {
 
 a:hover {
     font-size: 32px;
-    color: #37ada2;
+    color: #04AA6D;
 }
 
-.div_stranica {
-    
+.dugme {
+    padding: 13px;
+    color: white;
+    background-color: #04AA6D;
+    border-radius: 6px;
+    margin-left: 250px;
+    width: 105px;
+    border: none;
 }
+
+.dugme2 {
+    position: relative;
+    padding: 13px;
+    color: white;
+    background-color: #04AA6D;
+    border-radius: 6px;
+    left: 820px;
+    width: 105px;
+    border: none;
+}
+
+.drugidiv {
+    width: 1035px;
+    height: 380px;
+    background-color: #D9EEE1;
+    position: relative;
+    left: 250px;
+    top: 30px;
+}
+
+
+#paragraf  {
+    position: relative;
+    top: 65px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 45px;
+}
+
