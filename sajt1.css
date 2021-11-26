@@ -1,11 +1,17 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
 .bar {
     display: inline-block;
     height: 75px;
     width: 100%;
-    margin: 0px;
     background-color: #282A35;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     position: relative;
     
 }
@@ -28,7 +34,7 @@ i {
 }
 
 .alink:hover {
-    font-size: 30px;
+    font-size: 27px;
     color: #04AA6D;
 }
 
@@ -92,5 +98,52 @@ i {
     background-color: #282A35;
     margin-top: 160px;
     width: 260px;
-    
+}
+
+/* #tekstispod {
+    margin-top: 150px ;
+    justify-content: center;
+    align-items: center;
+} */
+
+#prvaslika {
+    width: 200px;
+    height: 250px ;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: flex-end; */
+    /* margin-top: 20px; */
+    position: relative;
+    left: 1300px;
+    bottom: 550px;
+
+
+}
+#drugaslika {
+    width: 200px;
+    height: 150px;
+    position: relative;
+    left: 1095px;
+    bottom: 390px;
+}
+
+#trecaslika {
+    width: 200px;
+    height: 180px;
+    position: relative;
+    left: 891px;
+    bottom: 200px;
+}
+
+#rotacija
+{  
+    position: absolute;
+    display: inline-block;
+    background-color: #FFF4A3;
+    transform: rotate(-20deg);
+    padding: 7px 15px;
+    border-radius: 15px;
+    top: 250px;
+    left: 20px;
+    z-index: 1;
 }
