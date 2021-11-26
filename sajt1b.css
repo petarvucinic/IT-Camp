@@ -1,22 +1,27 @@
+*{
+   padding: 0;
+   margin: 0;
+    
+}
+
 .bar {
     width: 100%;
     height: 80px;
+    position: relative;
     background-color: white;
     display: flex;
-    display: inline-block;
-    position: relative;
+    justify-content: space-between;
+    align-items: center;
 }
 
+
 .alinkovi {
-    /* position: absolute ; */
     margin-top: 26px;
     text-decoration: none;
     font-size: 22px;
-    /* font-family: Arial, Helvetica, sans-serif; */
     color: black;
-    /* margin-top: 20px; */
-    margin-left: 50px;
-    /* top: 20px; */
+    margin: 0 20px;
+    /* margin-left: 50px; */
 
 }
 
@@ -26,11 +31,12 @@
     border: black solid 0.5px;
 }
 
-.alink {
+.alink a{
     text-decoration: none;
     color: black;
-    position: absolute;
-    justify-content: flex-start;
+    /* position: absolute; */
+    justify-content: flex-end;
+    /* flex-direction: row; */
     display: flex;
 }
 
