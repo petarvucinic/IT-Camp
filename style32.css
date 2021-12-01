@@ -1,0 +1,33 @@
+body {
+    background-color: tan;
+    color: black;
+}
+
+
+@media screen and (max-width: 992px){
+    body {
+
+        background-color: blue;
+        color: white;
+
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
+    body {
+        background-color: orange;
+        color: white;
+    }
+}
+
+
+
+
+
+
+    
