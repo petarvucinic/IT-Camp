@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bar {
+    height: 94px;
+    width: 100%;
+    background-color: #144d5b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 666 */
+#bar_tekst {
+    float: right;
+}
+
+#tekst1 {
+    position: relative;
+    left: -250px;
+    color: white;
+    font-size: 22px;
+}
+
+
+.linkovi {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-left: 23px;
+    position: relative;
+    left: 160px;
+}
+
+#prvaicon {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 190px;
+}
+
+.bar_down {
+    width: 100%;
+    height: 200px;
+    background-color: #5a4339;
+}
+
+#tekst3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
