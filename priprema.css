@@ -1,0 +1,50 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.pocetni {
+    display: flex;
+    /* justify-content: center ;
+    align-items: center; */
+    width: 400px;
+    height: 65px;
+    background-color: white;
+    margin-bottom: 60px;
+    left: 540px;
+    position: relative;
+}
+
+.drugi {
+    display: flex;
+    /* justify-content: center ; */
+    /* align-items: center; */
+    width: 400px;
+    height: 65px;
+    left: 540px;
+    color: black;
+    background-color: white;
+    margin-bottom:  20px;
+    position: relative;
+    font-size: 25px;
+}
+
+.treci {
+    display: flex;
+    /* justify-content: center ; */
+    /* align-items: center; */
+    width: 400px;
+    height: 65px;
+    color: black;
+    background-color: white;
+    position: relative;
+    left: 540px;
+    padding: ;
+
+}
+
+#ikonica {
+    font-size: 70px;
+
+}
