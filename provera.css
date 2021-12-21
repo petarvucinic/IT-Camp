@@ -1,0 +1,97 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(223, 223, 144);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    list-style: none;
+    border-bottom: 2px solid black;
+    /* background-image: url(); */
+}
+
+.text {
+    margin-left: 50px;
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: double;
+}
+
+.ispodnav {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(71, 49, 16);
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.text:hover {
+    font-size: 35px;
+    color: red;
+}
+
+.div1 {
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    margin: 10px ;
+
+
+}
+
+.otac {
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+table {
+    border: 1px solid black; 
+    border-collapse: collapse;
+    margin-left: 500px;
+
+}
+
+.rotacija {
+    transform: rotate(-22deg);
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+    background-color: blue;
+    border-radius: 100%;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.nzm {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    margin-left: 500px;
+}
+
+.nzm:hover {
+    transition: 5s;
+    /* transform: scale(2, 3); */
+    background-color: red;
+    /* transform: ; */
+
+}
+
+@media screen and (max-width: 600px) {
+    /* sve ispocetka */
+    .navbar {
+        background-color: green;
+        width: 100%;
+        height: 70px;
+    }
+}
