@@ -454,8 +454,33 @@ var bool
 
 
 
+// let varijabla = ""
+// console.log(varijabla)
+// // nista se ne ispisuje
+
+
+
+
+// =============================================================================
 
 
 
 
 
+let var1 = 55
+let var2 = 4
+let var3 = 7
+
+
+if(var1 > var2 && var1 > var3){
+    console.log("najveci je " , var1)
+} else if(var2 > var1 && var2 > var3){
+    console.log("najveci je " , var2)   
+} else {
+    console.log("najveci je " , var3)   
+}
+
+
+
+
+// ==============================================================================
