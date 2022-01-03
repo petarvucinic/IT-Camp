@@ -467,20 +467,76 @@ var bool
 
 
 
-let var1 = 55
-let var2 = 4
-let var3 = 7
+// let var1 = 55
+// let var2 = 4
+// let var3 = 7
 
 
-if(var1 > var2 && var1 > var3){
-    console.log("najveci je " , var1)
-} else if(var2 > var1 && var2 > var3){
-    console.log("najveci je " , var2)   
-} else {
-    console.log("najveci je " , var3)   
-}
+// if(var1 > var2 && var1 > var3){
+//     console.log("najveci je " , var1)
+// } else if(var2 > var1 && var2 > var3){
+//     console.log("najveci je " , var2)   
+// } else {
+//     console.log("najveci je " , var3)   
+// }
 
 
 
 
 // ==============================================================================
+
+
+
+// for(let i=0; i<5; i++){
+//     console.log(i)
+// }
+
+
+
+// ==============================================================================
+
+
+
+// suma = 0
+// for(let i=0; i<=10; i++){
+//     suma += i
+// }
+
+// console.log(suma)
+
+
+
+// ==============================================================================
+
+
+
+
+// for(let i=0; i<10; i++){
+//     if(i%2==0){
+//         console.log(i)
+//     }
+// }
+
+
+
+
+// ==============================================================================
+
+
+
+// var a = [5, 4, 6, 8]
+
+// for(let i=0; i<a.length; i++ ){
+//     console.log(a[i])
+// }
+
+
+
+
+// ==============================================================================
+
+
+
+
+
+
