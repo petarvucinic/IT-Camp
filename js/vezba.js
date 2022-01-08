@@ -536,6 +536,86 @@ var bool
 // ==============================================================================
 
 
+// a = 5;
+
+// b = 5;
+
+// c = a === b;
+
+// console.log(c);
+
+
+
+// 
+
+
+// var varr = ""
+
+// console.log(typeof(""))
+
+
+// ============================================================================
+
+// Project euler 1
+// If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+// Find the sum of all the multiples of 3 or 5 below 1000.
+
+// var suma = 0
+// for(let i=1; i<1000; i++){
+//     if(i % 3 == 0 || i % 5 == 0){
+//         suma = suma + i
+//     }
+// }
+// console.log(suma)
+
+
+
+// ===============================================================================
+
+
+// Problem 4
+
+// var maks = 0
+// var x;
+// var y;
+
+// for(let i=100; i<1000; i++){
+//     for(let j=100; j<100; j++){
+//         x = String(i*j)
+//         y = x.split("").reverse().join("")
+//         if(x === y){
+//             if(i*j > maks){
+//                 maks = i*j
+//             }
+//         }
+//     }
+// }
+
+// console.log(maks)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
