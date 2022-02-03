@@ -614,15 +614,62 @@ var bool
 
 
 
+
 // ===============================================================================================
 
+// ternary operator
+
+
+// broj1 = 10
+// broj2 = 6
+
+// broj1 > 5 ? console.log("broj je veci od 5") : console.log("broj nije veci od 5")
+
+
+// ------------------------------------------
+
+// var1 = 5
+// var2 = 5
+
+// var1 === var2 ? console.log("jednaki") : console.log("nisu jednaki")
+
+
+// var1 = 5
+// var2 = 5
+
+
+// if(var1 === var2)
+//     console.log("jednaki")
+// else if (var1 > var2)
+//     console.log("var1 veci od var2")
+// else 
+//     console.log("var1 manji od var2")
+
+
+
+// -----------------------------------------------------------
+
+
+
+// for(let i=1; i<11;i++)
+//     // console.log("lifting weigths repetition " + i)
+//     console.log(`lifting weigths repetition ${}`)
 
 
 
 
+// --------------------------------------------------------------
 
 
 
+str = "perooo"
+
+for(let i = 0; i < str.length; i++){
+    console.log(str[i])
+}
+
+
+// ----------------------------------------------------------------
 
 
 
