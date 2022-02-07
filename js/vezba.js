@@ -662,11 +662,11 @@ var bool
 
 
 
-str = "perooo"
+// str = "perooo"
 
-for(let i = 0; i < str.length; i++){
-    console.log(str[i])
-}
+// for(let i = 0; i < str.length; i++){
+//     console.log(str[i])
+// }
 
 
 // ----------------------------------------------------------------
@@ -674,27 +674,92 @@ for(let i = 0; i < str.length; i++){
 
 
 
+// suma = 0
+
+// for(let i=1; i<=10; i++){
+//     suma += i
+// }
+
+// console.log(suma)
+
+
+
+// -----------------------------------------------------------------
+
+
+
+// let br = 100
+
+// suma = 0
+
+// for(let n=0; n<=br; n++)
+//     suma += n
+// console.log(suma)
+
+
+
+// ---------------------------------------------------------------------------
 
 
 
 
+// let suma_neparnih = 0
+// let suma_parnih = 0
+
+// for(let i=0; i<=10; i++){
+//     if(i%2==0)
+//         suma_parnih += i
+//     else
+//         suma_neparnih += i
+
+// }
+
+// console.log(suma_parnih)
+// console.log(suma_neparnih)
 
 
 
+// ----------------------------------------------------------------------------
 
 
 
+// let var1 = 17 
+
+// console.log(`ja imam ${var1}`)
+
+
+// ---------------------------------------------------------------------------
 
 
 
+// for(let i=1; i<=6; i++)
+//     console.log(`Curent number ${i} and the cube is ${i**3}`)
 
 
 
+// -----------------------------------------------------------
+
+
+// continue and break
+
+
+// for(let i = 1; i < 11; i++){
+//     if(i%2!=0){
+//         continue
+//     }
+//     else console.log(i)
+// }
 
 
 
+// --------------
+
+
+for(let i = 1; i <= 5; i++)
+    console.log(i * '*')
 
 
 
-
+for(let i=4; i>0; i--)
+    console.log(i + '*')
 
