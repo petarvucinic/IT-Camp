@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    height: 100vh;
 }
 
 .bar {
@@ -43,13 +44,40 @@
 .bar_down {
     width: 100%;
     height: 200px;
-    background-color: #5a4339;
+    background-color: #745b51;
 }
 
 #tekst3 {
     display: flex;
+    position: relative;
     justify-content: center;
-    align-items: center;
+    top: 70px;
+    /* align-items: center; */
     font-size: 30px;
+    color: #ffff
 
+
+}
+
+
+.background_slika {
+    width: 100%;
+    height: 100vh;
+    background: url(https://images.pexels.com/photos/6072914/pexels-photo-6072914.jpeg?cs=srgb&dl=pexels-pavel-danilyuk-6072914.jpg&fm=jpg);
+    position: sticky;
+    /* top: 100px; */
+    /* top: 660px; */
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+.txt {
+    position: relative;
+    top: 90px;
 }
