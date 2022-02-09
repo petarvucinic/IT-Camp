@@ -775,48 +775,133 @@ var bool
 // *
 
 
-for(let i = 1; i <= 5; i++){
-    if(i == 1)
-        console.log("*")
-    else if(i == 2)
-        console.log('**')
-    else if(i == 3)
-        console.log('***')
-    else if(i == 4)
-        console.log('****')
-    else if(i == 5)
-        console.log('*****')
-}
+// for(let i = 1; i <= 5; i++){
+//     if(i == 1)
+//         console.log("*")
+//     else if(i == 2)
+//         console.log('**')
+//     else if(i == 3)
+//         console.log('***')
+//     else if(i == 4)
+//         console.log('****')
+//     else if(i == 5)
+//         console.log('*****')
+// }
 
 
-for(let i = 5; i >= 1; i--){
-    if(i == 1)
-        console.log("*")
-    else if(i == 2)
-        console.log('**')
-    else if(i == 3)
-        console.log('***')
-    else if(i == 4)
-        console.log('****')
-    else if(i == 5)
-        console.log('*****')
-}
-
-
-
+// for(let i = 5; i >= 1; i--){
+//     if(i == 1)
+//         console.log("*")
+//     else if(i == 2)
+//         console.log('**')
+//     else if(i == 3)
+//         console.log('***')
+//     else if(i == 4)
+//         console.log('****')
+//     else if(i == 5)
+//         console.log('*****')
+// }
 
 
 
 
+// -----------------------------------------------------------------
 
 
 
+var Prvi_obj = {name: "Pero", prezime: 'Vucinic'}
+
+// console.log(Prvi_obj)
+// console.log(typeof(Prvi_obj))
+// 
+
+// var Drugi_obj = new Object
+
+// Drugi_obj.name = "Vucinic"
+// Drugi_obj.prezime = "Pero"
+
+
+// // console.log(Drugi_obj)
+
+
+// var str2 = new String()
+// str2 = "pero"
+
+// console.log(typeof(str2))
+// console.log(str2)
+
+// var str1 = 'pero'
+
+// console.log(str2 === str1)
 
 
 
+// var person = new Object();
+
+
+// person.ime = "pero"
+
+// person["prezime"] = "vuc"
+
+
+// console.log(person)
 
 
 
+// var ime = "pero"
+
+// var prezime = "vuc"
+
+// var persons = {ime, prezime}
+
+// console.log(persons)
+
+
+
+// // nacini 
+// var obj = {k1: v1, k2: v2}
+// var obj2 = new Object()
+// obj2.k1 = p2 
+// k1 = v1 
+// var obj3  = (k1, k2, kn)
+
+
+
+// ispis vrednosti
+// var obj = {ime: "pero", prezime: "vucinic"}
+
+// console.log(obj["ime"])
+
+
+
+// var objekat = {godine: 15, skola: "gimnazija"}
+
+// for(var i in objekat){
+//     console.log(i)
+//     console.log(objekat[i])
+    
+// }
+
+
+
+// // Date()
+// var currentdate = new Date 
+// console.log(currentdate)
+
+
+// function prvaf(ime, prezime){
+//     console.log(ime + prezime)
+
+// }
+
+// prvaf("pero", " vuc")
+
+
+// function zbir(var1, var2){
+//     return var1 + var2
+// }
+// res = zbir(5, 4)
+// console.log(res)
 
 
 
