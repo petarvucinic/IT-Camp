@@ -807,14 +807,17 @@ var bool
 
 // -----------------------------------------------------------------
 
+// objekti kao dict u python-u
 
-
-var Prvi_obj = {name: "Pero", prezime: 'Vucinic'}
+// 1. nacin
+// var Prvi_obj = {name: "Pero", prezime: 'Vucinic'}
 
 // console.log(Prvi_obj)
 // console.log(typeof(Prvi_obj))
 // 
 
+
+// 2. naicn preko konstrukotra
 // var Drugi_obj = new Object
 
 // Drugi_obj.name = "Vucinic"
@@ -825,7 +828,7 @@ var Prvi_obj = {name: "Pero", prezime: 'Vucinic'}
 
 
 // var str2 = new String()
-// str2 = "pero"
+// // str2 = "pero"
 
 // console.log(typeof(str2))
 // console.log(str2)
@@ -861,7 +864,7 @@ var Prvi_obj = {name: "Pero", prezime: 'Vucinic'}
 // // nacini 
 // var obj = {k1: v1, k2: v2}
 // var obj2 = new Object()
-// obj2.k1 = p2 
+// obj2.k1 = v1 
 // k1 = v1 
 // var obj3  = (k1, k2, kn)
 
@@ -902,6 +905,195 @@ var Prvi_obj = {name: "Pero", prezime: 'Vucinic'}
 // }
 // res = zbir(5, 4)
 // console.log(res)
+
+
+
+// DRUGI NACIN
+// *
+// **
+// ***
+// ****
+// *****
+// ****
+// ***
+// **
+// *
+
+// suma = ""
+// for(let i = 1; i <= 5; i++){
+//     suma += "*"
+//     console.log(suma)
+// }
+
+
+// suma = "*****"
+// for(let i = 5; i >= 1; i--){
+//     suma -= '*'
+//     console.log(suma)
+// }
+
+
+
+// -----------------------------------------------
+
+
+
+// var veliki_broj = "95984964"
+// let suma = 0
+
+// for(let i = 0; i < veliki_broj.length; i++)
+// {
+//     console.log(veliki_broj[i])
+//     suma += parseInt(veliki_broj[i])
+// }
+
+// console.log(suma)
+
+
+
+// -------------------------------------------------------
+
+
+
+// var obj = {""}
+
+
+
+// console.log('91' - 1)
+
+// console.log("****" - "*")
+
+
+// najbolji
+
+// var suma = ""
+// for(let i = 1; i <= 5; i++){
+//     suma += "*"
+//     console.log(suma)
+// }
+
+// let str = "*****"
+// for(let i = 4; i >= 1; i--){
+
+//     console.log(str.slice(0, i))
+// }
+
+
+
+// ----------------------------------------------------------------------
+
+
+
+// var student = {
+//     name : "David Rayy",
+//     sclass : "VI",
+//     rollno : 12 };
+
+// for(var i in student){
+//     console.log(i , "\t", student[i])
+// }
+
+
+
+// ---------------------------------------------------
+
+
+
+
+// var student = {
+//     name : "David Rayy",
+//     sclass : "VI",
+//     rollno : 12 };
+
+// delete student.rollno
+// console.log(student)
+
+
+// ----------------------------------------------------
+
+
+
+
+// var student = {
+//    name : "David Rayy",
+//    sclass : "VI",
+//    rollno : 12 };
+
+
+// console.log(Object.keys(student))
+// console.log(Object.values(student))
+
+
+
+// -------------------------------------------
+
+
+// var library = [ 
+//     {
+//         author: 'Bill Gates',
+//         title: 'The Road Ahead',
+//         readingStatus: true
+//     },
+//     {
+//         author: 'Steve Jobs',
+//         title: 'Walter Isaacson',
+//         readingStatus: true
+//     },
+//     {
+//         author: 'Suzanne Collins',
+//         title:  'Mockingjay: The Final Book of The Hunger Games', 
+//         readingStatus: false
+//     }];
+
+// for(var i in library){
+//     for(var j in library[i]){
+//         if(j === "readingStatus"){
+//             console.log(library[i][j])
+//         }
+//     }
+// }
+
+
+// -----------------------------------------------------------
+
+
+// const pi = 3.14
+
+// function Volumen(r, h){
+//     return pi * r**2 * h
+// }
+
+// var V = Volumen(5, 2)
+// console.log(V)
+
+
+// --------------------------------------------------
+
+
+var arr1 = [1, 2, 3, 4]
+var arr2 = [5, 6, 7, 8]
+
+
+// promenili mso arr1
+arr1.push.apply(arr1, arr2)
+console.log(arr1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
