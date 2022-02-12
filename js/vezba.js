@@ -974,7 +974,6 @@ var bool
 
 // let str = "*****"
 // for(let i = 4; i >= 1; i--){
-
 //     console.log(str.slice(0, i))
 // }
 
@@ -1070,13 +1069,168 @@ var bool
 // --------------------------------------------------
 
 
-var arr1 = [1, 2, 3, 4]
-var arr2 = [5, 6, 7, 8]
+// var arr1 = [1, 2, 3, 4]
+// var arr2 = [5, 6, 7, 8]
 
 
-// promenili mso arr1
-arr1.push.apply(arr1, arr2)
-console.log(arr1)
+// // promenili mso arr1
+// arr1.push.apply(arr1, arr2)
+// console.log(arr1)
+
+
+
+
+// ARRAYS
+
+
+
+// 
+// 
+// function petar() {
+    // console.log()
+// }
+// 
+// const petar = () => {
+    // console.log()
+// }
+// 
+
+
+// niz = [1,2,4,12, 33333, 3]
+
+// console.log(niz.sort((a, b) => (a - b)))
+// 
+// niz.push(6)
+// niz.pop()
+// niz.splice(2, 0, "novi", 'novi2222')
+// 
+// console.log(niz)
+
+
+
+// niz = [1, 2, 5, 4, 3]
+// console.log(niz[niz.length - 1])
+// 
+
+// const niz = new Array("volvo", "opel", "audi")
+
+// // document.getElementById("demo").innerHTML = niz
+
+// console.log(niz)
+
+
+
+// methods 
+
+// dodavanje elementa
+
+// niz = ["a", "b", "v", "c"]
+// niz.push("f")
+// console.log(niz)
+
+
+// niz[niz.length] = "volvooooo"
+
+// console.log(niz)
+
+// ********************************************************************************
+
+
+// push, pop, sort, shift, unshift, splice, slice
+
+// PUSH - dodaje el. na poslednjem mestu, return length niza
+// POP - izbacuje poslednji element niza, return ime var koja je izbacena
+// SORT - sortitra el. , paznja !!
+// SHIFT - brise el. sa indexom 0
+// UNSHIFT - dodaje el. na prvom mestu
+// SPLICE - dodaje elemente na spec mestu, 1.par. mesto, 2.par. koliko el. da izbacimo
+// SLICE = "slicuje" niz, i return niz
+
+
+// *********************************************************************************
+
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let length = fruits.push("Kiwi");
+// console.log(length)
+// console.log(fruits)
+
+// fruits.shift()
+
+// console.log()
+// console.log(fruits)
+
+
+
+// fruits.unshift("lemon")
+
+// console.log(fruits)
+
+
+
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// // fruits[0] = "Kiwi"
+// // console.log(fruits)
+
+// // ostavlja hole, undefined
+// delete fruits[0] 
+
+// fruits.unshift("nesto")
+// console.log(fruits)
+
+
+
+// const niz1 = [1, 2, 3, 4]
+// const niz2 = [5, 6, 7, 8]
+// const niz3 = niz1.concat(niz2)
+
+// console.log(niz3)
+
+
+
+// const arr = [1, 2, 3, 4, 5, 6]
+// arr.splice(3, 2)
+// console.log(arr)
+
+
+// const niz = [1, 2, 5, 6]
+// niz.splice(2, 0, 3, 4)
+// console.log(niz)
+
+
+
+// const arrr = ["volvo", "audi", "bmw"]
+// const car = arrr.slice(0,2)
+// console.log(car)
+
+
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// fruits.sort()
+// console.log(fruits)
+// fruits.reverse()
+// console.log(fruits)
+
+
+
+// SORT - po default sortira ih kao stringove
+
+const arr = [2, 1, 9, 8, 6, 15]
+
+// najm -> najv
+arr.sort(function(a, b){return a - b})
+console.log(arr)
+
+// najv -> najm
+arr.sort(function(a, b){return b - a})
+console.log(arr)
+
+// random
+arr.sort(function(a, b){return 0.5 - Math.random()})
+console.log(arr)
 
 
 
