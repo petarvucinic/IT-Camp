@@ -972,12 +972,11 @@ var bool
 //     console.log(suma)
 // }
 
-// let str = "*****"
 // for(let i = 4; i >= 1; i--){
-//     console.log(str.slice(0, i))
+//     console.log(suma.slice(0, i))
 // }
 
-
+// *****
 
 // ----------------------------------------------------------------------
 
@@ -1135,7 +1134,7 @@ var bool
 
 // ********************************************************************************
 
-
+// ARR METHODS
 // push, pop, sort, shift, unshift, splice, slice
 
 // PUSH - dodaje el. na poslednjem mestu, return length niza
@@ -1218,19 +1217,87 @@ var bool
 
 // SORT - po default sortira ih kao stringove
 
-const arr = [2, 1, 9, 8, 6, 15]
+// const arr = [2, 1, 9, 8, 6, 15]
 
-// najm -> najv
-arr.sort(function(a, b){return a - b})
-console.log(arr)
+// // najm -> najv
+// arr.sort(function(a, b){return a - b})
+// console.log(arr)
 
-// najv -> najm
-arr.sort(function(a, b){return b - a})
-console.log(arr)
+// // najv -> najm
+// arr.sort(function(a, b){return b - a})
+// console.log(arr)
 
-// random
-arr.sort(function(a, b){return 0.5 - Math.random()})
-console.log(arr)
+// // random
+// arr.sort(function(a, b){return 0.5 - Math.random()})
+// console.log(arr)
+
+
+// -----------------------------------------------
+
+
+// var name = "ajsaaaaa"
+
+// for(let i = 0; i <= name.length; i++){
+//     if( name[i] === "a")
+//         name = name.replace("a", "*")
+// }
+// console.log(name)
+
+
+
+// ------------------------------------------------
+
+
+// var nzm = "545"
+
+// typeof(nzm) === typeof(" ") ? console.log(true) : console.log(false)
+
+
+// if(typeof(nzm) == "string"){
+//     console.log(true)
+// } else {
+//     console.log(false)
+// }
+// console.log()
+
+
+
+// -------------------------------------------------
+
+
+
+// var stri = "js string ex"
+
+// console.log(stri.replace(stri[0], stri[0].toLocaleUpperCase()))
+
+
+// ----------------------------
+
+
+var prom = "AaBbC"
+
+for(let i = 0; i <= prom.length; i++){
+    if(prom[i] === prom[i].toLocaleUpperCase()){
+        prom = prom.replace(prom[i], prom[i].toLocaleLowerCase())
+    } else {
+        prom = prom.replace(prom[i], prom[i].toLocaleUpperCase())
+    }
+}
+
+
+console.log(prom)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
