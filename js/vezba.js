@@ -1142,12 +1142,15 @@ var bool
 // SORT - sortitra el. , paznja !!
 // SHIFT - brise el. sa indexom 0
 // UNSHIFT - dodaje el. na prvom mestu
-// SPLICE - dodaje elemente na spec mestu, 1.par. mesto, 2.par. koliko el. da izbacimo
+// SPLICE - dodaje elemente na spec mestu, 1.param. mesto, 2.par. koliko el. da izbacimo
 // SLICE = "slicuje" niz, i return niz
 
 
 // *********************************************************************************
 
+// const arr1 = [1 , 2, 65]
+// a = arr1.pop()
+// console.log(a)
 
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // let length = fruits.push("Kiwi");
@@ -1201,8 +1204,9 @@ var bool
 
 
 // const arrr = ["volvo", "audi", "bmw"]
-// const car = arrr.slice(0,2)
-// console.log(car)
+// const car = arrr.slice(0,1)
+// arrr.slice(0,1)
+// console.log(arrr)
 
 
 
@@ -1274,19 +1278,173 @@ var bool
 // ----------------------------
 
 
-var prom = "AaBbC"
+// nes nije dbr
+// var prom = "AaBbC"
 
-for(let i = 0; i <= prom.length; i++){
-    if(prom[i] === prom[i].toLocaleUpperCase()){
-        prom = prom.replace(prom[i], prom[i].toLocaleLowerCase())
-    } else {
-        prom = prom.replace(prom[i], prom[i].toLocaleUpperCase())
-    }
-}
+// for(let i = 0; i <= prom.length; i++){
+//     if(prom[i] === prom[i].toLocaleUpperCase()){
+//         prom[i] = prom.replace(prom[i], prom[i].toLocaleLowerCase())
+//     } else {
+//         prom[i] = prom.replace(prom[i], prom[i].toLocaleUpperCase())
+//     }
+// }
 
 
-console.log(prom)
+// console.log(prom)
 
+
+
+// ---------------------------------------------------------
+
+
+// const arr = [1, 8, 55, 5, 87, 2, 0, 45]
+// arr.splice(1, 0, " " , " ")
+// console.log(arr)
+
+// 
+
+// a = [1, 2, 3]
+// if(typeof(a) === "object"){
+//     console.log("lista je")
+// } else {
+//     console.log("nije lista")
+// }
+
+
+// -----------------------
+
+
+// const niz = ["m", 1, 2, 3]
+
+// function prvi_element_niza(niz){
+//     return niz[0]
+// }
+
+// console.log(prvi_element_niza(niz))
+
+
+
+// ----------------------
+
+
+
+// const niz = [7, 0, -9, 11, 5, 6, 8]
+// var n = 4
+
+// function n_elemenata_niza(niz, n){
+//     niz.splice(n, niz.length - n)
+// }
+// n_elemenata_niza(niz, n)
+// console.log(niz)
+
+
+
+// ------------------------------------
+
+
+// const  myColor = ["Red", "Green", "White", "Black"];
+
+// suma1 = ""
+// suma2 = ""
+
+// for(let i = 0; i < myColor.length; i++){
+    
+//     suma1 += myColor[i] + ","
+//     suma2 += myColor[i] + "+"
+    
+// }
+
+// console.log(suma1)
+// console.log(suma2)
+
+
+
+// -----------------------------------------
+
+
+
+// var arr1 = [ 3, 8, 7, 6, 5, -4, 3, 2, 1 ]
+// console.log(arr1.sort(function(a, b){return a - b}))
+
+
+// -------------------------------
+
+
+// const godine = [1, 3, 19, 88, 74, 14, 55, 18]
+
+// const punoletni = godine.filter(provera)
+// const nisu_punoletni = godine.filter(provera2)
+
+// function provera2(god){
+//     return god <= 18
+// }
+
+// function provera(god){
+//     return god >= 18
+// }
+
+// console.log(nisu_punoletni)
+// console.log(punoletni)
+
+
+
+// --------------------------------------
+
+
+// const fruits = ["apple", "orange", "cherry"];
+// fruits.forEach(myFunction);
+
+// function myFunction(fruit){
+//     console.log(fruit) 
+// }
+// console.log(fruits)
+
+
+
+// ---------------------------
+
+
+// const niz = [1, 2, 3, 4, 5, 6, 7]
+
+// const novi_niz = niz.map(kvadriranje)
+
+// function kvadriranje(el){
+//     return el ** 2
+// }
+// console.log(niz)
+// console.log(novi_niz)
+
+
+// ---------------------------------
+
+
+// var a = [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]];
+
+// for(let i = 0; i < a.length; i++){
+//     console.log(`ROW ${i}`)
+//     for(let j = 0; j < a[i].length; j++){
+//         console.log(a[i][j])
+//     }
+// }
+
+
+
+// ----------------------------------------------------------------
+
+
+// // nije dbr
+// const niz = [1, 1, 2, 22, 59, 8979, 2]
+
+// for(let i = 0; i < niz.length; i++){
+//     suma = 0
+
+//     for(let j = i; j < niz.length;  j++){
+//         if (i === j){
+//             niz.splice(i-1, 1)
+//         }
+//     }
+// }
+// console.log(niz)
 
 
 
