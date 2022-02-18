@@ -25,11 +25,7 @@ var bool
 // != i !==
 */
 
-
-
 // ===========================================================================
-
-
 
 // FARH U CELZ
 
@@ -40,12 +36,7 @@ var bool
 // cel = (fah - 32)*5/9;
 // console.log(cel + "°C");
 
-
-
 // ============================================================================
-
-
-
 
 // if (true) {
 //     console.log("bla ")
@@ -53,14 +44,9 @@ var bool
 //     console.log("bla bla")
 // } else {
 //     console.log("bla bla bla")
-// } 
-
-
+// }
 
 // ==========================================================================
-
-
-
 
 // var broj = 32;
 
@@ -73,13 +59,7 @@ var bool
 //     console.log("broj je nula")
 // }
 
-
-
-
 // ===========================================================================
-
-
-
 
 // var broj1 = 3;
 
@@ -94,12 +74,7 @@ var bool
 //     console.log(broj1);
 // }
 
-
-
 // =============================================================================
-
-
-
 
 // var broj1 = 5;
 
@@ -109,13 +84,7 @@ var bool
 //     console.log("nije paran");
 // }
 
-
-
-
 // -----------------------------------------------------------------------------
-
-
-
 
 // var broj1 = 15;
 // var broj2 = 40;
@@ -128,12 +97,7 @@ var bool
 //     console.log("false");
 // }
 
-
-
-
 // ==============================================================================
-
-
 
 // var num = 1500;
 
@@ -143,34 +107,24 @@ var bool
 //     console.log("ne nalazi se izmedju 100 i 200");
 // }
 
-
-
-
 // ==============================================================================
-
-
 
 // var godina = 2000;
 
 // if(godina %400==0){
 //     console.log("prestupna je");
-// } 
+// }
 // else {
 //     console.log("nije prestupna");
 // }
 
-
-
 // -------------------------------------------------------------------------------
-
-
 
 // var num1 = 2;
 // var num2 = 3;
 // var num3 = 4;
 // var num4 = 1;
 // var num5 = 0;
-
 
 // if(num1 > num2 && num1 > num3 && num1 > num4 && num1 > num5) {
 //     console.log("prvi br=", num1);
@@ -184,13 +138,7 @@ var bool
 //     console.log("peti br=", num5);
 // }
 
-
-
-
 // ============================================================================
-
-
-
 
 // let a = 5
 // let b = 85
@@ -210,13 +158,7 @@ var bool
 //     console.log("Imas 0 poena")
 // }
 
-
-
-
 // ====================================================================================================
-
-
-
 
 // var a = 576;
 // var b = 56;
@@ -229,13 +171,7 @@ var bool
 //     console.log("a jednako b")
 // }
 
-
-
-
 // =====================================================================================================
-
-
-
 
 // let a = 5
 // let b = 15
@@ -250,13 +186,7 @@ var bool
 //     console.log (b+9+(a-2)*4)
 // }
 
-
-
-
 // ===================================================================================
-
-
-
 
 // str = "Hello world"
 
@@ -270,21 +200,14 @@ var bool
 // console.log(str + ' Hello')
 // console.log(str.replace('Hello' , '1389'))
 
-
-
 // undefined ne postoji ta vrednost
-// null kad nzm pa stavimo mi 
+// null kad nzm pa stavimo mi
 // NaN greska tipa 16/"dss"
- 
+
 // var arr = [1, 2, 3]
 // console.log(arr[10])
 
-
-
-
 // ===================================================================================
-
-
 
 // unesite od 1.00 do 5.00
 // var prosek = 2.54;
@@ -303,12 +226,7 @@ var bool
 //     console.log("pogresan unos")
 // }
 
-
-
 // =============================================================================================
-
-
-
 
 // var num = 241;
 
@@ -324,11 +242,7 @@ var bool
 //     console.log("visecifren")
 // }
 
-
-
 // ====================================================================================
-
-
 
 // const a = 1
 // const b = 2
@@ -338,7 +252,6 @@ var bool
 // var k = 5;
 // var x = 6;
 
-
 // if(x > k){
 //     console.log(a*x**3 - b*x**2 + c*x -d)
 // }else if(x =  k){
@@ -347,12 +260,7 @@ var bool
 //     console.log(-a*x**3 - b*x**2 + c*x -d)
 // }
 
-
-
-
 // =======================================================================================
-
-
 
 // var str1 = 552
 
@@ -362,11 +270,7 @@ var bool
 //     console.log("nije sting")
 // }
 
-
-
 //=============================================================================
-
-
 
 // var slovo = "e"
 
@@ -376,12 +280,7 @@ var bool
 //     console.log("suglasnik")
 // }
 
-
-
-
 // =======================================================================
-
-
 
 // var mesec = 2
 
@@ -413,19 +312,11 @@ var bool
 //     console.log("pogresan unos")
 // }
 
-
-
-
-
 // ============================================================================
-
-
-
 
 // var broj = 379
 // var broj2;
 // broj2 = broj.toString();
-
 
 // if(broj2[0]**3 + broj2[1]**3 + broj2[2]**3 == broj ){
 //     console.log("armstrong je")
@@ -433,11 +324,7 @@ var bool
 //     console.log("nije armstrong")
 // }
 
-
-
 // =============================================================================
-
-
 
 // var varijabla = ""
 
@@ -447,55 +334,33 @@ var bool
 //     console.log("nije blank")
 // }
 
-
-
 // ============================================================================
-
-
-
 
 // let varijabla = ""
 // console.log(varijabla)
 // // nista se ne ispisuje
 
-
-
-
 // =============================================================================
-
-
-
-
 
 // let var1 = 55
 // let var2 = 4
 // let var3 = 7
 
-
 // if(var1 > var2 && var1 > var3){
 //     console.log("najveci je " , var1)
 // } else if(var2 > var1 && var2 > var3){
-//     console.log("najveci je " , var2)   
+//     console.log("najveci je " , var2)
 // } else {
-//     console.log("najveci je " , var3)   
+//     console.log("najveci je " , var3)
 // }
 
-
-
-
 // ==============================================================================
-
-
 
 // for(let i=0; i<5; i++){
 //     console.log(i)
 // }
 
-
-
 // ==============================================================================
-
-
 
 // suma = 0
 // for(let i=0; i<=10; i++){
@@ -504,12 +369,7 @@ var bool
 
 // console.log(suma)
 
-
-
 // ==============================================================================
-
-
-
 
 // for(let i=0; i<10; i++){
 //     if(i%2==0){
@@ -517,12 +377,7 @@ var bool
 //     }
 // }
 
-
-
-
 // ==============================================================================
-
-
 
 // var a = [5, 4, 6, 8]
 
@@ -530,11 +385,7 @@ var bool
 //     console.log(a[i])
 // }
 
-
-
-
 // ==============================================================================
-
 
 // a = 5;
 
@@ -544,15 +395,11 @@ var bool
 
 // console.log(c);
 
-
-
-// 
-
+//
 
 // var varr = ""
 
 // console.log(typeof(""))
-
 
 // ============================================================================
 
@@ -568,10 +415,7 @@ var bool
 // }
 // console.log(suma)
 
-
-
 // ===============================================================================
-
 
 // Problem 4
 
@@ -593,13 +437,9 @@ var bool
 
 // console.log(maks)
 
-
-
 // ================================================================================================================
 
-
 // Problem 9
-
 
 // for(let a=1; a<=1000; a++){
 //     for(let b=1; b<=1000; b++){
@@ -612,19 +452,14 @@ var bool
 //     }
 // }
 
-
-
-
 // ===============================================================================================
 
 // ternary operator
-
 
 // broj1 = 10
 // broj2 = 6
 
 // broj1 > 5 ? console.log("broj je veci od 5") : console.log("broj nije veci od 5")
-
 
 // ------------------------------------------
 
@@ -633,34 +468,23 @@ var bool
 
 // var1 === var2 ? console.log("jednaki") : console.log("nisu jednaki")
 
-
 // var1 = 5
 // var2 = 5
-
 
 // if(var1 === var2)
 //     console.log("jednaki")
 // else if (var1 > var2)
 //     console.log("var1 veci od var2")
-// else 
+// else
 //     console.log("var1 manji od var2")
 
-
-
 // -----------------------------------------------------------
-
-
 
 // for(let i=1; i<11;i++)
 //     // console.log("lifting weigths repetition " + i)
 //     console.log(`lifting weigths repetition ${}`)
 
-
-
-
 // --------------------------------------------------------------
-
-
 
 // str = "perooo"
 
@@ -668,11 +492,7 @@ var bool
 //     console.log(str[i])
 // }
 
-
 // ----------------------------------------------------------------
-
-
-
 
 // suma = 0
 
@@ -682,11 +502,7 @@ var bool
 
 // console.log(suma)
 
-
-
 // -----------------------------------------------------------------
-
-
 
 // let br = 100
 
@@ -696,12 +512,7 @@ var bool
 //     suma += n
 // console.log(suma)
 
-
-
 // ---------------------------------------------------------------------------
-
-
-
 
 // let suma_neparnih = 0
 // let suma_parnih = 0
@@ -717,31 +528,20 @@ var bool
 // console.log(suma_parnih)
 // console.log(suma_neparnih)
 
-
-
 // ----------------------------------------------------------------------------
 
-
-
-// let var1 = 17 
+// let var1 = 17
 
 // console.log(`ja imam ${var1}`)
 
-
 // ---------------------------------------------------------------------------
-
-
 
 // for(let i=1; i<=6; i++)
 //     console.log(`Curent number ${i} and the cube is ${i**3}`)
 
-
-
 // -----------------------------------------------------------
 
-
 // continue and break
-
 
 // for(let i = 1; i < 11; i++){
 //     if(i%2!=0){
@@ -750,19 +550,13 @@ var bool
 //     else console.log(i)
 // }
 
-
-
 // --------------
-
 
 // for(let i = 1; i <= 5; i++)
 //     console.log(i * '*')
 
-
-
 // for(let i=4; i>0; i--)
 //     console.log(i + '*')
-
 
 // *
 // **
@@ -773,7 +567,6 @@ var bool
 // ***
 // **
 // *
-
 
 // for(let i = 1; i <= 5; i++){
 //     if(i == 1)
@@ -788,7 +581,6 @@ var bool
 //         console.log('*****')
 // }
 
-
 // for(let i = 5; i >= 1; i--){
 //     if(i == 1)
 //         console.log("*")
@@ -802,9 +594,6 @@ var bool
 //         console.log('*****')
 // }
 
-
-
-
 // -----------------------------------------------------------------
 
 // objekti kao dict u python-u
@@ -814,8 +603,7 @@ var bool
 
 // console.log(Prvi_obj)
 // console.log(typeof(Prvi_obj))
-// 
-
+//
 
 // 2. naicn preko konstrukotra
 // var Drugi_obj = new Object
@@ -823,9 +611,7 @@ var bool
 // Drugi_obj.name = "Vucinic"
 // Drugi_obj.prezime = "Pero"
 
-
 // // console.log(Drugi_obj)
-
 
 // var str2 = new String()
 // // str2 = "pero"
@@ -837,19 +623,13 @@ var bool
 
 // console.log(str2 === str1)
 
-
-
 // var person = new Object();
-
 
 // person.ime = "pero"
 
 // person["prezime"] = "vuc"
 
-
 // console.log(person)
-
-
 
 // var ime = "pero"
 
@@ -859,38 +639,29 @@ var bool
 
 // console.log(persons)
 
-
-
-// // nacini 
+// // nacini
 // var obj = {k1: v1, k2: v2}
 // var obj2 = new Object()
-// obj2.k1 = v1 
-// k1 = v1 
+// obj2.k1 = v1
+// k1 = v1
 // var obj3  = (k1, k2, kn)
-
-
 
 // ispis vrednosti
 // var obj = {ime: "pero", prezime: "vucinic"}
 
 // console.log(obj["ime"])
 
-
-
 // var objekat = {godine: 15, skola: "gimnazija"}
 
 // for(var i in objekat){
 //     console.log(i)
 //     console.log(objekat[i])
-    
+
 // }
 
-
-
 // // Date()
-// var currentdate = new Date 
+// var currentdate = new Date
 // console.log(currentdate)
-
 
 // function prvaf(ime, prezime){
 //     console.log(ime + prezime)
@@ -899,14 +670,11 @@ var bool
 
 // prvaf("pero", " vuc")
 
-
 // function zbir(var1, var2){
 //     return var1 + var2
 // }
 // res = zbir(5, 4)
 // console.log(res)
-
-
 
 // DRUGI NACIN
 // *
@@ -925,18 +693,13 @@ var bool
 //     console.log(suma)
 // }
 
-
 // suma = "*****"
 // for(let i = 5; i >= 1; i--){
 //     suma -= '*'
 //     console.log(suma)
 // }
 
-
-
 // -----------------------------------------------
-
-
 
 // var veliki_broj = "95984964"
 // let suma = 0
@@ -949,20 +712,13 @@ var bool
 
 // console.log(suma)
 
-
-
 // -------------------------------------------------------
 
-
-
 // var obj = {""}
-
-
 
 // console.log('91' - 1)
 
 // console.log("****" - "*")
-
 
 // najbolji
 
@@ -980,8 +736,6 @@ var bool
 
 // ----------------------------------------------------------------------
 
-
-
 // var student = {
 //     name : "David Rayy",
 //     sclass : "VI",
@@ -991,12 +745,7 @@ var bool
 //     console.log(i , "\t", student[i])
 // }
 
-
-
 // ---------------------------------------------------
-
-
-
 
 // var student = {
 //     name : "David Rayy",
@@ -1006,27 +755,19 @@ var bool
 // delete student.rollno
 // console.log(student)
 
-
 // ----------------------------------------------------
-
-
-
 
 // var student = {
 //    name : "David Rayy",
 //    sclass : "VI",
 //    rollno : 12 };
 
-
 // console.log(Object.keys(student))
 // console.log(Object.values(student))
 
-
-
 // -------------------------------------------
 
-
-// var library = [ 
+// var library = [
 //     {
 //         author: 'Bill Gates',
 //         title: 'The Road Ahead',
@@ -1039,7 +780,7 @@ var bool
 //     },
 //     {
 //         author: 'Suzanne Collins',
-//         title:  'Mockingjay: The Final Book of The Hunger Games', 
+//         title:  'Mockingjay: The Final Book of The Hunger Games',
 //         readingStatus: false
 //     }];
 
@@ -1051,9 +792,7 @@ var bool
 //     }
 // }
 
-
 // -----------------------------------------------------------
-
 
 // const pi = 3.14
 
@@ -1064,52 +803,41 @@ var bool
 // var V = Volumen(5, 2)
 // console.log(V)
 
-
 // --------------------------------------------------
-
 
 // var arr1 = [1, 2, 3, 4]
 // var arr2 = [5, 6, 7, 8]
-
 
 // // promenili mso arr1
 // arr1.push.apply(arr1, arr2)
 // console.log(arr1)
 
-
-
-
 // ARRAYS
 
-
-
-// 
-// 
+//
+//
 // function petar() {
-    // console.log()
+// console.log()
 // }
-// 
+//
 // const petar = () => {
-    // console.log()
+// console.log()
 // }
-// 
-
+//
 
 // niz = [1,2,4,12, 33333, 3]
 
 // console.log(niz.sort((a, b) => (a - b)))
-// 
+//
 // niz.push(6)
 // niz.pop()
 // niz.splice(2, 0, "novi", 'novi2222')
-// 
+//
 // console.log(niz)
-
-
 
 // niz = [1, 2, 5, 4, 3]
 // console.log(niz[niz.length - 1])
-// 
+//
 
 // const niz = new Array("volvo", "opel", "audi")
 
@@ -1117,16 +845,13 @@ var bool
 
 // console.log(niz)
 
-
-
-// methods 
+// methods
 
 // dodavanje elementa
 
 // niz = ["a", "b", "v", "c"]
 // niz.push("f")
 // console.log(niz)
-
 
 // niz[niz.length] = "volvooooo"
 
@@ -1145,7 +870,6 @@ var bool
 // SPLICE - dodaje elemente na spec mestu, 1.param. mesto, 2.par. koliko el. da izbacimo
 // SLICE = "slicuje" niz, i return niz
 
-
 // *********************************************************************************
 
 // const arr1 = [1 , 2, 65]
@@ -1162,14 +886,9 @@ var bool
 // console.log()
 // console.log(fruits)
 
-
-
 // fruits.unshift("lemon")
 
 // console.log(fruits)
-
-
-
 
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
@@ -1177,12 +896,10 @@ var bool
 // // console.log(fruits)
 
 // // ostavlja hole, undefined
-// delete fruits[0] 
+// delete fruits[0]
 
 // fruits.unshift("nesto")
 // console.log(fruits)
-
-
 
 // const niz1 = [1, 2, 3, 4]
 // const niz2 = [5, 6, 7, 8]
@@ -1190,25 +907,18 @@ var bool
 
 // console.log(niz3)
 
-
-
 // const arr = [1, 2, 3, 4, 5, 6]
 // arr.splice(3, 2)
 // console.log(arr)
-
 
 // const niz = [1, 2, 5, 6]
 // niz.splice(2, 0, 3, 4)
 // console.log(niz)
 
-
-
 // const arrr = ["volvo", "audi", "bmw"]
 // const car = arrr.slice(0,1)
 // arrr.slice(0,1)
 // console.log(arrr)
-
-
 
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
@@ -1216,8 +926,6 @@ var bool
 // console.log(fruits)
 // fruits.reverse()
 // console.log(fruits)
-
-
 
 // SORT - po default sortira ih kao stringove
 
@@ -1235,9 +943,7 @@ var bool
 // arr.sort(function(a, b){return 0.5 - Math.random()})
 // console.log(arr)
 
-
 // -----------------------------------------------
-
 
 // var name = "ajsaaaaa"
 
@@ -1247,15 +953,11 @@ var bool
 // }
 // console.log(name)
 
-
-
 // ------------------------------------------------
-
 
 // var nzm = "545"
 
 // typeof(nzm) === typeof(" ") ? console.log(true) : console.log(false)
-
 
 // if(typeof(nzm) == "string"){
 //     console.log(true)
@@ -1264,19 +966,13 @@ var bool
 // }
 // console.log()
 
-
-
 // -------------------------------------------------
-
-
 
 // var stri = "js string ex"
 
 // console.log(stri.replace(stri[0], stri[0].toLocaleUpperCase()))
 
-
 // ----------------------------
-
 
 // nes nije dbr
 // var prom = "AaBbC"
@@ -1289,19 +985,15 @@ var bool
 //     }
 // }
 
-
 // console.log(prom)
 
-
-
 // ---------------------------------------------------------
-
 
 // const arr = [1, 8, 55, 5, 87, 2, 0, 45]
 // arr.splice(1, 0, " " , " ")
 // console.log(arr)
 
-// 
+//
 
 // a = [1, 2, 3]
 // if(typeof(a) === "object"){
@@ -1310,9 +1002,7 @@ var bool
 //     console.log("nije lista")
 // }
 
-
 // -----------------------
-
 
 // const niz = ["m", 1, 2, 3]
 
@@ -1322,11 +1012,7 @@ var bool
 
 // console.log(prvi_element_niza(niz))
 
-
-
 // ----------------------
-
-
 
 // const niz = [7, 0, -9, 11, 5, 6, 8]
 // var n = 4
@@ -1337,10 +1023,7 @@ var bool
 // n_elemenata_niza(niz, n)
 // console.log(niz)
 
-
-
 // ------------------------------------
-
 
 // const  myColor = ["Red", "Green", "White", "Black"];
 
@@ -1348,27 +1031,21 @@ var bool
 // suma2 = ""
 
 // for(let i = 0; i < myColor.length; i++){
-    
+
 //     suma1 += myColor[i] + ","
 //     suma2 += myColor[i] + "+"
-    
+
 // }
 
 // console.log(suma1)
 // console.log(suma2)
 
-
-
 // -----------------------------------------
-
-
 
 // var arr1 = [ 3, 8, 7, 6, 5, -4, 3, 2, 1 ]
 // console.log(arr1.sort(function(a, b){return a - b}))
 
-
 // -------------------------------
-
 
 // const godine = [1, 3, 19, 88, 74, 14, 55, 18]
 
@@ -1386,23 +1063,17 @@ var bool
 // console.log(nisu_punoletni)
 // console.log(punoletni)
 
-
-
 // --------------------------------------
-
 
 // const fruits = ["apple", "orange", "cherry"];
 // fruits.forEach(myFunction);
 
 // function myFunction(fruit){
-//     console.log(fruit) 
+//     console.log(fruit)
 // }
 // console.log(fruits)
 
-
-
 // ---------------------------
-
 
 // const niz = [1, 2, 3, 4, 5, 6, 7]
 
@@ -1414,9 +1085,7 @@ var bool
 // console.log(niz)
 // console.log(novi_niz)
 
-
 // ---------------------------------
-
 
 // var a = [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]];
 
@@ -1427,35 +1096,115 @@ var bool
 //     }
 // }
 
-
-
 // ----------------------------------------------------------------
 
+// nije dbr
 
-// // nije dbr
-// const niz = [1, 1, 2, 22, 59, 8979, 2]
+// const niz = [1, 1, 2, 22, 59, 8979, 2];
 
-// for(let i = 0; i < niz.length; i++){
-//     suma = 0
+// for (let i = 0; i < niz.length; i++) {
+//   suma = 0;
 
-//     for(let j = i; j < niz.length;  j++){
-//         if (i === j){
-//             niz.splice(i-1, 1)
-//         }
+//   for (let j = i; j < niz.length; j++) {
+//     if (i === j) {
+//       niz.splice(i - 1, 1);
 //     }
+//   }
 // }
-// console.log(niz)
+// console.log(niz);
+
+// ----------------------------------
+
+// const fn = () => {
+
+// }
+
+// const godine = [1, 65, 18, 97, 4]
+// const rezultat = godine.filter(god => god > 18)
+// console.log(rezultat)
+
+// --------------------------------------
+
+// switch
+// let ocena = 9
+
+// switch(ocena){
+//     case 1 :
+//         console.log("nedovoljan");
+//         break;
+//     case 2 :
+//         console.log("dovoljan");
+//         break;
+//     case 3 :
+//         console.log("dobar");
+//         break;
+//     case 4 :
+//         console.log("vrlodobar");
+//         break;
+//     case 5 :
+//         console.log("odlican")
+//         break;
+//     default:
+//         console.log("Niste radili test / greska prilikom unosa")
+// }
+
+// ---------------------
+
+// niz = [1, 2, 3];
+
+// niz.forEach(function (br) {
+//   if (br === 1) {
+//     console.log("evo ga");
+//   } else {
+//     console.log("nije taj");
+//   }
+// });
+
+// for (let i of niz) {
+//   console.log(i);
+//   if (i == 1) console.log("Evo ga");
+//   else console.log("nije taj");
+// }
+
+// ------------------------
+
+// const nesto = {
+//     name: "pero",
+//     prezime: "vucinic",
+
+// }
+
+// console.log(nesto["name"])
+
+// for(let i in nesto){
+//     console.log(nesto[i])
+// }
+
+// ------------
+
+// n = 0
+// suma = 0
+// while(n <= 100){
+//     suma += n
+//     n++
+// }
+
+// console.log(suma)
+
+//-------------------------
+
+// let i = 0;
+
+// do {
+//   console.log(i);
+//   i++;
+
+// } while (i > 10);
+// {
+// }
 
 
-
-
-
-
-
-
-
-
-
+// -----------------------------
 
 
 
