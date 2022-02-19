@@ -1,0 +1,146 @@
+.kartica {
+  width: 800px;
+  height: 550px;
+  margin: 70px auto;
+  background: linear-gradient(to right, #add8e6 0%, #ffff 75%);
+  /* background-image: linear-gradient(to right, red 0% , yellow 100%); */
+  border-radius: 15px;
+  position: relative;
+}
+
+#kartica_shadow {
+  box-shadow: 4px 3px 8px 1px #969696;
+  background-color: grey;
+}
+
+#prvap {
+  color: #ffff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: absolute;
+  top: 130px;
+  left: 80px;
+}
+
+#tx {
+  position: absolute;
+  color: #ffff;
+  top: 180px;
+  left: 80px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#sign_in {
+  width: 155px;
+  height: 43px;
+  border-radius: 30px;
+  border: white 1px solid;
+  color: white;
+  background-color: transparent;
+  position: absolute;
+  top: 250px;
+  left: 116px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#drugi_deo {
+  color: rgb(70, 68, 68);
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  position: absolute;
+  left: 500px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  top: 50px;
+}
+
+#fb {
+  font-size: 40px;
+  padding: 1px;
+  position: absolute;
+  left: 510px;
+  top: 150px;
+}
+
+#tw {
+  font-size: 40px;
+  position: absolute;
+  left: 595px;
+  top: 150px;
+}
+
+#gpl {
+  font-size: 40px;
+  position: absolute;
+  left: 676px;
+  top: 150px;
+}
+
+#bellowi {
+  position: absolute;
+  left: 516px;
+  top: 200px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(70, 68, 68);
+  font-size: 13px;
+}
+
+#nameq {
+  position: absolute;
+  width: 260px;
+  height: 37px;
+  background-color: rgb(233, 230, 230);
+  border: none;
+  color: #969696;
+  left: 485px;
+  left: 485px;
+  top: 250px;
+  padding-left: 20px;
+  background-color: rgb(243, 240, 240);
+
+}
+
+#em {
+  position: absolute;
+  width: 260px;
+  height: 37px;
+  background-color: rgb(233, 230, 230);
+  border: none;
+  color: #969696;
+  left: 485px;
+  top: 315px;
+  padding-left: 20px;
+  background-color: rgb(243, 240, 240);
+
+}
+
+#passw {
+  position: absolute;
+  width: 260px;
+  height: 37px;
+  background-color: rgb(243, 240, 240);
+  border: none;
+  color: #969696;
+  left: 485px;
+  top: 380px;
+  padding-left: 20px;
+  /* border-radius: px; */
+}
+
+#signup {
+  width: 155px;
+  height: 43px;
+  border-radius: 30px;
+  border: rgb(173, 172, 172) 0.3px solid;
+  color: rgb(70, 68, 68);
+  background: linear-gradient(to right, #add8e6 0%, #ffff 100%);
+  position: absolute;
+  top: 450px;
+  left: 546px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(243, 240, 240);
+
+}
