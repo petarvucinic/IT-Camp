@@ -1208,6 +1208,65 @@ var bool
 
 
 
+// const niz = [12, 14, 16, 19, 21, 1, 14]
+
+// niz2 = niz.filter(el => el < 18)
+
+// console.log(niz2)
+
+
+
+// ---------------------
+
+
+// const niz = [1, 2, 3, 4, 5]
+
+// niz2 = niz.map(el => el**2)
+
+// console.log(niz2)
+
+
+// const niz = [1, 2, 3, 4, 5]
+
+// niz2 = niz.filter(el => el > 2)
+
+// console.log(niz2)
+
+
+
+// ------------------------------------
+
+
+
+// const niz = [1, 2, 3]
+
+// for(let x of niz){
+//     console.log(x)
+// }
+
+
+// const obj = {
+//     ime : "pero", 
+//     prezime : "vuc"
+// }
+
+// for(let x in obj){
+//     console.log(obj[x])
+// }
+
+
+
+// ------------------------------------
+
+
+
+
+
+
+
+
+
+
 
 
 
