@@ -1203,10 +1203,7 @@ var bool
 // {
 // }
 
-
 // -----------------------------
-
-
 
 // const niz = [12, 14, 16, 19, 21, 1, 14]
 
@@ -1214,10 +1211,7 @@ var bool
 
 // console.log(niz2)
 
-
-
 // ---------------------
-
 
 // const niz = [1, 2, 3, 4, 5]
 
@@ -1225,18 +1219,13 @@ var bool
 
 // console.log(niz2)
 
-
 // const niz = [1, 2, 3, 4, 5]
 
 // niz2 = niz.filter(el => el > 2)
 
 // console.log(niz2)
 
-
-
 // ------------------------------------
-
-
 
 // const niz = [1, 2, 3]
 
@@ -1244,9 +1233,8 @@ var bool
 //     console.log(x)
 // }
 
-
 // const obj = {
-//     ime : "pero", 
+//     ime : "pero",
 //     prezime : "vuc"
 // }
 
@@ -1254,33 +1242,73 @@ var bool
 //     console.log(obj[x])
 // }
 
-
-
 // ------------------------------------
 
+// const niz = [1, 2, 3, 4]
+// console.log(niz.length)
+// pom = niz.unshift(5)
+// console.log(pom)
+//
 
+//
 
+// 0  1  2  3
+// niz.slice(1, 3)
+// console.log(niz.slice(1, 2))
 
+// -----
 
+// const niz = [0, 6, 1, 5, -6, 11, 13, 5]
 
+// let mini = maxx = 0
+// for(let x in niz){
+//     if(x === 0){
+//         mini = maxx = niz[x]
+//     }
+//     if(niz[x] > maxx){
+//         maxx = niz[x]
+//     } else if (niz[x] < mini) {
+//         mini = niz[x]
+//     }
+// }
 
+// console.log(mini, maxx)
 
+// ----------------------------------------
 
+// const niz = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+// const parni = []
+// const neparni = []
 
+// for(let x of niz){
+//     if (x % 2 == 0){
+//         parni.push(x)
+//     } else {
+//         neparni.push(x)
+//     }
+// }
 
+// console.log(parni, neparni)
 
+// -----------------------------------------
 
+const niz = [1, 1, 2, 3, 3, 4, 4, 5];
 
+function uniqe_values(niz) {
+  count = false;
+  for (let i = 0; i < niz.length; i++) {
+    for (let j = i + 1; j < niz.length; j++) {
+      if (niz[i] == niz[j]) {
+        count = true;
+        vr = niz[i];
+      } else {
+        break;
+      }
+      if (count) {
+        console.log(niz[i]);
+      }
+    }
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+uniqe_values(niz);
