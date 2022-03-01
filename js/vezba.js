@@ -1358,7 +1358,51 @@ var bool
 //   i++;
 // }
 
-
-
 // ------------------------------------------
 
+// let i = 10;
+// do {
+//   console.log("hej");
+// } while (i < 5);
+
+// --------------------
+
+// arr = [1, 2, 3, 4, 65, 22, 76, 4465, 98];
+
+// let i = 0;
+// while (i < arr.length) {
+//     if ( arr[i].toString().length <= 2) {
+//         if (arr[i] % 2 === 0) {
+//             console.log(`${arr[i]} is even`);
+//         } else {
+//             console.log(`${arr[i]} is odd`);
+//         }
+//     } else {
+//         i++
+//         continue;
+//     }
+//     i++;
+// }
+
+// -------
+
+arr = [1, 266, 3, 4, 65, 22, 76, 4465, 98];
+
+arr.sort(function (a, b) {
+  return a - b;
+});
+
+i = 0;
+while (i < arr.length) {
+  if (arr[i].toString().length >= 3) {
+    i++;
+    continue;
+  } else {
+    if (arr[i] % 2 === 0) {
+      console.log(`${arr[i]} is even`);
+    } else {
+      console.log(`${arr[i]} is odd`);
+    }
+    i++;
+  }
+}
