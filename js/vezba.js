@@ -1292,23 +1292,73 @@ var bool
 
 // -----------------------------------------
 
-const niz = [1, 1, 2, 3, 3, 4, 4, 5];
+// const niz = [1, 1, 2, 3, 3, 4, 4, 5];
 
-function uniqe_values(niz) {
-  count = false;
-  for (let i = 0; i < niz.length; i++) {
-    for (let j = i + 1; j < niz.length; j++) {
-      if (niz[i] == niz[j]) {
-        count = true;
-        vr = niz[i];
-      } else {
-        break;
-      }
-      if (count) {
-        console.log(niz[i]);
-      }
-    }
-  }
-}
+// function uniqe_values(niz) {
+//   count = false;
+//   for (let i = 0; i < niz.length; i++) {
+//     for (let j = i + 1; j < niz.length; j++) {
+//       if (niz[i] == niz[j]) {
+//         count = true;
+//         vr = niz[i];
+//       } else {
+//         break;
+//       }
+//       if (count) {
+//         console.log(niz[i]);
+//       }
+//     }
+//   }
+// }
 
-uniqe_values(niz);
+// uniqe_values(niz);
+
+// --------------------------------------------------
+
+// let i = 1
+// let text;
+// while (i <= 10) {
+//   text = "The number is " + i;
+//   i++;
+//   console.log(text)
+// }
+
+// ----------------------
+
+// let i = 0
+
+// while(i <= 15){
+//     if(i % 2 === 0){
+//         console.log(`${i} is even`)
+//     } else {
+//         console.log(`${i} is odd`)
+//     }
+//     i++
+// }
+
+// for(let j = 0; j <=15; j++){
+//     if(j % 2 === 0){
+//         console.log(`${j} is even`)
+//     } else {
+//         console.log(`${j} is odd`)
+//     }
+// }
+
+// ------------------------------
+
+// arr = [1, 2, 3, 4, 65, 22, 76, 4465, 98];
+
+// let i = 0;
+// while (i < arr.length) {
+//   if (arr[i] % 2 === 0) {
+//     console.log(`${arr[i]} is even`);
+//   } else {
+//     console.log(`${arr[i]} is odd`);
+//   }
+//   i++;
+// }
+
+
+
+// ------------------------------------------
+
