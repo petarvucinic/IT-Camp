@@ -9,15 +9,31 @@ const mainTitle = document.querySelector(".main-title");
 
 // attach a event listener
 
-// button.addEventListener("click", function () {
-// //   console.log("NEW ITEM ADDED");
-//     const newItem = document.createElement('li');
-//     newItem.classList.add('item');
-//     newItem.innerText = `Item ${items.length + 1}`;
-//     todoList.appendChild(newItem);
-//     todoNr.innerText = items.length;
 
-// });
+
+button.addEventListener("click", function () {
+//   console.log("NEW ITEM ADDED");
+    const newItem = document.createElement('li');
+    newItem.classList.add('item');
+    newItem.innerText = `Item ${items.length + 1}`;
+    todoList.appendChild(newItem);
+    todoNr.innerText = items.length;
+
+});
+
+
+for(item of items){
+  item.addEventListener("click", deleteItem)
+}
+
+
+function deleteItem(){
+  console.log("delete")
+}
+
+
+
+
 
 // console.log(items.length)
 
@@ -26,16 +42,18 @@ const mainTitle = document.querySelector(".main-title");
 //   mainTitle.style.fontSize = "50px";
 // });
 
-// mouseover, click, keydown
-button.addEventListener("keydown", function(event){
-  // mainTitle.classList.add("color")
-  // console.log(event)
-  // mainTitle.classList.toggle("color")
 
-  if(event.keyCode === 81){
-    mainTitle.classList.toggle("color")
-  }
-}) 
+
+// mouseover, click, keydown
+// button.addEventListener("keydown", function(event){
+//   // mainTitle.classList.add("color")
+//   // console.log(event)
+//   // mainTitle.classList.toggle("color")
+
+//   if(event.keyCode === 81){
+//     mainTitle.classList.toggle("color")
+//   }
+// }) 
 
 
 
