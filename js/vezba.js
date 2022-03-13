@@ -1386,23 +1386,119 @@ var bool
 
 // -------
 
-arr = [1, 266, 3, 4, 65, 22, 76, 4465, 98];
+// arr = [1, 266, 3, 4, 65, 22, 76, 4465, 98];
 
-arr.sort(function (a, b) {
-  return a - b;
-});
+// arr.sort(function (a, b) {
+//   return a - b;
+// });
 
-i = 0;
-while (i < arr.length) {
-  if (arr[i].toString().length >= 3) {
-    i++;
-    continue;
-  } else {
-    if (arr[i] % 2 === 0) {
-      console.log(`${arr[i]} is even`);
-    } else {
-      console.log(`${arr[i]} is odd`);
-    }
-    i++;
+// i = 0;
+// while (i < arr.length) {
+//   if (arr[i].toString().length >= 3) {
+//     i++;
+//     continue;
+//   } else {
+//     if (arr[i] % 2 === 0) {
+//       console.log(`${arr[i]} is even`);
+//     } else {
+//       console.log(`${arr[i]} is odd`);
+//     }
+//     i++;
+//   }
+// }
+
+// ---------------------------
+
+
+
+// const arr = [34, -345, -1, 100];
+// function smallest(arr) {
+//   let mini;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (i == 0) {
+//       mini = arr[i];
+//     } else {
+//       if(mini > arr[i]){
+//         mini = arr[i]
+//       }
+//     }
+//   }
+//   return mini
+// }
+
+// res = smallest(arr);
+// console.log(res)
+
+
+
+// /------------------------------------------
+
+
+
+// const arr = [1, 0, 3, -4, 14, 65, -17, 45, 4]
+
+// arr.sort(function(a, b){return a - b})
+// console.log(arr[1])
+
+
+
+// /------------------------------------------
+
+// pyramid(0) => [ ]
+// pyramid(1) => [ [1] ]
+// pyramid(2) => [ [1], [1, 1] ]
+// pyramid(3) => [ [1], [1, 1], [1, 1, 1] ]
+
+
+// var arr = []
+// function pyramid(n){
+//   for(let i = 0; i <= n; i++){
+//       var arr2 = []
+//       i = 1
+//       arr2.push(1)
+//       arr.push(arr2)
+//     }
+
+// }
+
+// n = 3
+// pyramid(n)
+
+
+
+
+// /------------- arr
+
+
+const niz = [
+  [1, 3, 6],
+  [4, 9, 1],
+  [4, 1, 9],
+]
+
+
+for(let i = 0; i < niz.length; i++){
+  for(let j = 0; j < niz[i].length; j++){
+    process.stdout.write(niz[i][j] + '\t')
+  }
+  console.log()
+}
+
+console.log("posle promene sporedne dijagonale")
+// console.log(niz)
+
+
+for(let i = 0; i < niz.length; i++){
+  for(let j = 0; j < niz[i].length; j++){
+    niz[i][niz[i].length - i - 1] = 0
   }
 }
+
+for(let i = 0; i < niz.length; i++){
+  for(let j = 0; j < niz[i].length; j++){
+    process.stdout.write(niz[i][j] + '\t')
+  }
+  console.log()
+}
+
+// console.log(niz)
