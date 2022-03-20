@@ -1409,8 +1409,6 @@ var bool
 
 // ---------------------------
 
-
-
 // const arr = [34, -345, -1, 100];
 // function smallest(arr) {
 //   let mini;
@@ -1429,18 +1427,12 @@ var bool
 // res = smallest(arr);
 // console.log(res)
 
-
-
 // /------------------------------------------
-
-
 
 // const arr = [1, 0, 3, -4, 14, 65, -17, 45, 4]
 
 // arr.sort(function(a, b){return a - b})
 // console.log(arr[1])
-
-
 
 // /------------------------------------------
 
@@ -1448,7 +1440,6 @@ var bool
 // pyramid(1) => [ [1] ]
 // pyramid(2) => [ [1], [1, 1] ]
 // pyramid(3) => [ [1], [1, 1], [1, 1, 1] ]
-
 
 // var arr = []
 // function pyramid(n){
@@ -1464,41 +1455,136 @@ var bool
 // n = 3
 // pyramid(n)
 
-
-
-
 // /------------- arr
 
+// const niz = [
+//   [1, 3, 6],
+//   [4, 9, 1],
+//   [4, 1, 9],
+// ]
+
+// for(let i = 0; i < niz.length; i++){
+//   for(let j = 0; j < niz[i].length; j++){
+//     process.stdout.write(niz[i][j] + '\t')
+//   }
+//   console.log()
+// }
+
+// console.log("posle promene sporedne dijagonale")
+// // console.log(niz)
+
+// for(let i = 0; i < niz.length; i++){
+//   for(let j = 0; j < niz[i].length; j++){
+//     niz[i][niz[i].length - i - 1] = 0
+//   }
+// }
+
+// for(let i = 0; i < niz.length; i++){
+//   for(let j = 0; j < niz[i].length; j++){
+//     process.stdout.write(niz[i][j] + '\t')
+//   }
+//   console.log()
+// }
+
+// console.log(niz)
+
+// -------------------
+
+// const niz = [
+//   [1, 3, 6],
+//   [4, 9, 1],
+//   [4, 1, 9],
+// ]
+
+// for(let i = 0; i < niz.length; i++){
+//   for(let j = 0; j < niz[i].length; j++){
+//     niz[i][niz[i].length - 1 - i] = 0
+//   }
+// }
+
+// console.log("Posle izmene")
+
+// for(let i = 0; i < niz.length; i++){
+//   for(let j = 0; j < niz[i].length; j++){
+//     // console.log(niz[i][j])
+//     process.stdout.write(niz[i][j] + '\t')
+//   }
+//   console.log()
+//   console.log()
+// }
+
+// ------------------------------------------------
+
+// const niz = [
+//   [1, 3, 6],
+//   [4, 9, 1],
+//   [4, 1, 9],
+// ]
+
+// for(let i = 0; i < niz.length; i++){
+//   for(let j = 0; j < niz[i].length; j++){
+//     // console.log(niz[i][j])
+//     process.stdout.write(niz[i][j] + '\t')
+//   }
+//   console.log()
+//   console.log()
+// }
+
+// -----------------------------
+
+// const niz = [
+//   [1, 0, 0],
+//   [0, 1, 0],
+//   [0, 0, 1],
+// ];
+
+// function provera(niz) {
+//   suma = 0;
+//   for (let i = 0; i < niz.length; i++) {
+//     for (let j = 0; j < niz[i].length; j++) {
+//       if ((i === j && niz[i][j] !== 1) || (i !== j && niz[i][j] !== 0)) {
+//         return false;
+//       }
+//     }
+//   }
+//   return true;
+// }
+// console.log(provera(niz));
+
+// ----------------------------
+
+function orderBySum(niz) {
+  res = [];
+  suma = 0
+  nova_suma = 0
+  for (let i = 0; i < niz.length; i++) {
+    for (let j = 0; j < niz[i].length; j++) {
+      suma += niz[i][j];
+    }
+    break
+  }
+
+  for (let i = 1; i < niz.length; i++) {
+    for (let j = 0; j < niz[i].length; j++) {
+      nova_suma += niz[i][j];
+    }
+    if(nova_suma < suma){
+        res.push(niz[i])
+        niz.splice(niz.length - 1, 1)
+    }
+
+    if(niz.length === 1){
+        res.push(niz[0])
+    }
+  }
+  
+    console.log(res)  
+}
 
 const niz = [
-  [1, 3, 6],
-  [4, 9, 1],
-  [4, 1, 9],
-]
+  [1, 3],
+  [4, 2],
+  [2, 1],
+];
 
-
-for(let i = 0; i < niz.length; i++){
-  for(let j = 0; j < niz[i].length; j++){
-    process.stdout.write(niz[i][j] + '\t')
-  }
-  console.log()
-}
-
-console.log("posle promene sporedne dijagonale")
-// console.log(niz)
-
-
-for(let i = 0; i < niz.length; i++){
-  for(let j = 0; j < niz[i].length; j++){
-    niz[i][niz[i].length - i - 1] = 0
-  }
-}
-
-for(let i = 0; i < niz.length; i++){
-  for(let j = 0; j < niz[i].length; j++){
-    process.stdout.write(niz[i][j] + '\t')
-  }
-  console.log()
-}
-
-// console.log(niz)
+console.log(orderBySum(niz))
