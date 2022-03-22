@@ -1553,38 +1553,128 @@ var bool
 
 // ----------------------------
 
-function orderBySum(niz) {
-  res = [];
-  suma = 0
-  nova_suma = 0
-  for (let i = 0; i < niz.length; i++) {
-    for (let j = 0; j < niz[i].length; j++) {
-      suma += niz[i][j];
+// function orderBySum(niz) {
+//   res = [];
+//   suma = 0
+//   nova_suma = 0
+//   for (let i = 0; i < niz.length; i++) {
+//     for (let j = 0; j < niz[i].length; j++) {
+//       suma += niz[i][j];
+//     }
+//     break
+//   }
+
+//   for (let i = 1; i < niz.length; i++) {
+//     for (let j = 0; j < niz[i].length; j++) {
+//       nova_suma += niz[i][j];
+//     }
+//     if(nova_suma < suma){
+//         res.push(niz[i])
+//         niz.splice(niz.length - 1, 1)
+//     }
+
+//     if(niz.length === 1){
+//         res.push(niz[0])
+//     }
+//   }
+
+//     console.log(res)
+// }
+
+// const niz = [
+//   [1, 3],
+//   [4, 2],
+//   [2, 1],
+// ];
+
+// console.log(orderBySum(niz))
+
+// -----------------------------------------------------------
+
+// function findOddOneOut(someArray){
+//   res = []
+//   res2 = []
+//   for(let i = 1; i < someArray.length; i++){
+//     if (someArray[i] !== someArray[0]){
+//       res.push(someArray[i])
+//     }
+//   }
+//   res2.push(someArray[0])
+//   var count1 = 0
+//   var count2 = 0
+//   for(let i = 0;  i < res2.length; i++){
+//     count1 += 1
+//   }
+//   for(let i = 0; i < res.length; i++){
+//     count2 += 1
+//   }
+//   if(count1 > count2){
+//     var kon = res[0]
+//     return kon
+//   }
+// }
+
+// const array = ['b', 'a', 'a', 'a']
+
+// console.log(findOddOneOut(array))
+
+// const fnod = (somearray){
+//   for(let i = 0; i < somearray.length; i++){
+//     if(somearray[0] !== somearray[1] && somearray[1] === somearray[2]){
+//       return somearray[0]
+//     } else if(somearray[i] !== somearray[i + 1]){
+//       return somearray[i + 1]
+//     }
+//   }
+// }
+
+// console.log(fnod(["A", "B", "A", "A"]))
+
+// -------------------------
+
+
+// ne radi nes
+// function spl(niz) {
+//   var res1 = [];
+//   var res2 = [];
+//   var konacno = [];
+//   for (let x of niz) {
+//     if (x % 2 == 0) {
+//       if (!res1.includes(x)) {
+//         res1.push(x);
+//       }
+//     } else {
+//       if (!res2.includes(x)) {
+//         res2.push(x);
+//       }
+//     }
+
+//     return konacno;
+//   }
+// }
+
+// niz = [2, 3, 7, 6, 2, 4, 9];
+
+// console.log(spl(niz));
+
+
+
+function spl(some){
+  let parni = []
+  let neparni = []
+  for(let i = 0; i < some.length; i++){
+    if(some[i] % 2 == 0 && parni.includes(some[i]) === false){
+      parni.push(some[i])
+    } else if (some[i] % 2 !== 0 && neparni.includes(some[i]) === false){
+      neparni.push(some[i])
     }
-    break
   }
 
-  for (let i = 1; i < niz.length; i++) {
-    for (let j = 0; j < niz[i].length; j++) {
-      nova_suma += niz[i][j];
-    }
-    if(nova_suma < suma){
-        res.push(niz[i])
-        niz.splice(niz.length - 1, 1)
-    }
+  parni.sort(function(a, b){ return a - b})
+  neparni.sort(function(a, b){ return a - b})
 
-    if(niz.length === 1){
-        res.push(niz[0])
-    }
-  }
-  
-    console.log(res)  
+  return [parni, neparni]
+
 }
 
-const niz = [
-  [1, 3],
-  [4, 2],
-  [2, 1],
-];
-
-console.log(orderBySum(niz))
+console.log(spl([2, 3, 7, 6, 2, 4, 9]))
