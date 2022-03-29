@@ -1632,7 +1632,6 @@ var bool
 
 // -------------------------
 
-
 // ne radi nes
 // function spl(niz) {
 //   var res1 = [];
@@ -1657,24 +1656,75 @@ var bool
 
 // console.log(spl(niz));
 
+// ----
 
+// function spl(some){
+//   let parni = []
+//   let neparni = []
+//   for(let i = 0; i < some.length; i++){
+//     if(some[i] % 2 == 0 && parni.includes(some[i]) === false){
+//       parni.push(some[i])
+//     } else if (some[i] % 2 !== 0 && neparni.includes(some[i]) === false){
+//       neparni.push(some[i])
+//     }
+//   }
 
-function spl(some){
-  let parni = []
-  let neparni = []
-  for(let i = 0; i < some.length; i++){
-    if(some[i] % 2 == 0 && parni.includes(some[i]) === false){
-      parni.push(some[i])
-    } else if (some[i] % 2 !== 0 && neparni.includes(some[i]) === false){
-      neparni.push(some[i])
+//   parni.sort(function(a, b){ return a - b})
+//   neparni.sort(function(a, b){ return a - b})
+
+//   return [parni, neparni]
+
+// }
+
+// console.log(spl([2, 3, 7, 6, 2, 4, 9]))
+
+// -----------------------------------------------------
+
+// function mix(niz, niz2) {
+//   var res = [];
+//   for (let i = 0; i < niz.length; i++) {
+//     res.push(niz[i]);
+//     res.push(niz2[i]);
+//   }
+
+//   for (let x of niz2) {
+//     if (!res.includes(x)) {
+//       res.push(x);
+//     }
+//   }
+
+//   for(let y of res){
+//     if(y === undefined){
+//       res.pop(y)
+//     }
+//   }
+
+//   return res;
+// }
+
+// niz = ["a", "b", "c"];
+// niz2 = [1, 3, 4, 5];
+// console.log(mix(niz, niz2));
+
+// --------------------
+// --------------------
+
+niz = [1, 1, 2, 3, 3, 4, 4, 5];
+
+function uniqe_values(niz) {
+  var res = [];
+  for (let i = 0; i < niz.length; i++) {
+    pom = 0;
+    for (let j = i + 1; j < niz.length; j++) {
+      if (niz[i] === niz[j]) {
+        pom += 1;
+      }
+    }
+    if (pom === 0) {
+      res.push(niz[i]);
     }
   }
-
-  parni.sort(function(a, b){ return a - b})
-  neparni.sort(function(a, b){ return a - b})
-
-  return [parni, neparni]
-
+  return res;
 }
 
-console.log(spl([2, 3, 7, 6, 2, 4, 9]))
+console.log(uniqe_values(niz));
