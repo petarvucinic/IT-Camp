@@ -1709,22 +1709,3 @@ var bool
 // --------------------
 // --------------------
 
-niz = [1, 1, 2, 3, 3, 4, 4, 5];
-
-function uniqe_values(niz) {
-  var res = [];
-  for (let i = 0; i < niz.length; i++) {
-    pom = 0;
-    for (let j = i + 1; j < niz.length; j++) {
-      if (niz[i] === niz[j]) {
-        pom += 1;
-      }
-    }
-    if (pom === 0) {
-      res.push(niz[i]);
-    }
-  }
-  return res;
-}
-
-console.log(uniqe_values(niz));
