@@ -1470,7 +1470,12 @@ var bool
 // n = 3
 // pyramid(n)
 
+
+
 // /------------- arr
+
+
+
 
 // const niz = [
 //   [1, 3, 6],
@@ -1503,7 +1508,11 @@ var bool
 
 // console.log(niz)
 
+
+
 // -------------------
+
+
 
 // const niz = [
 //   [1, 3, 6],
@@ -1528,7 +1537,11 @@ var bool
 //   console.log()
 // }
 
+
+
 // ------------------------------------------------
+
+
 
 // const niz = [
 //   [1, 3, 6],
@@ -1545,7 +1558,12 @@ var bool
 //   console.log()
 // }
 
+
+
 // -----------------------------
+
+
+
 
 // const niz = [
 //   [1, 0, 0],
@@ -1566,7 +1584,14 @@ var bool
 // }
 // console.log(provera(niz));
 
+
+
 // ----------------------------
+
+
+// nes ne radi
+
+
 
 // function orderBySum(niz) {
 //   res = [];
@@ -1604,36 +1629,17 @@ var bool
 
 // console.log(orderBySum(niz))
 
+
+
 // -----------------------------------------------------------
 
-// function findOddOneOut(someArray){
-//   res = []
-//   res2 = []
-//   for(let i = 1; i < someArray.length; i++){
-//     if (someArray[i] !== someArray[0]){
-//       res.push(someArray[i])
-//     }
-//   }
-//   res2.push(someArray[0])
-//   var count1 = 0
-//   var count2 = 0
-//   for(let i = 0;  i < res2.length; i++){
-//     count1 += 1
-//   }
-//   for(let i = 0; i < res.length; i++){
-//     count2 += 1
-//   }
-//   if(count1 > count2){
-//     var kon = res[0]
-//     return kon
-//   }
-// }
 
-// const array = ['b', 'a', 'a', 'a']
 
-// console.log(findOddOneOut(array))
+// -----
 
-// const fnod = (somearray){
+
+
+// const fnod = (somearray) => {
 //   for(let i = 0; i < somearray.length; i++){
 //     if(somearray[0] !== somearray[1] && somearray[1] === somearray[2]){
 //       return somearray[0]
@@ -1645,7 +1651,11 @@ var bool
 
 // console.log(fnod(["A", "B", "A", "A"]))
 
+
+
 // -------------------------
+
+
 
 // ne radi nes
 // function spl(niz) {
@@ -1671,7 +1681,11 @@ var bool
 
 // console.log(spl(niz));
 
+
+
 // ----
+
+
 
 // function spl(some){
 //   let parni = []
@@ -1692,6 +1706,28 @@ var bool
 // }
 
 // console.log(spl([2, 3, 7, 6, 2, 4, 9]))
+
+
+// krace
+
+// function spl(arr){
+//   even = []
+//   odd = []
+//   for(let x of arr){
+//     if(! even.includes(x) || odd.includes(x)){
+//       if (x % 2 == 0){
+//         even.push(x)
+//       } else {
+//         odd.push(odd)
+//       }
+//     }
+//   }
+// }
+
+
+// console.log(spl([2, 3, 7, 6, 2, 4, 9]))
+
+
 
 // -----------------------------------------------------
 
@@ -1724,6 +1760,31 @@ var bool
 // console.log(mix(niz, niz2));
 
 
+// boljjiiiii
+
+
+// const mix = (ar1, ar2) => {
+//   res = []
+//   for(let i = 0; i < ar1.length + ar2.length; i++){
+//     if(ar1[i] !== undefined){
+//       res.push(ar1[i])
+//     }
+//     if(ar2[i] !== undefined){
+//       res.push(ar2[i])
+//     }
+//   }
+//   return res
+// }
+
+
+// niz = ["a", "b", "c"];
+// niz2 = [1, 3, 4, 5];
+// console.log(mix(niz, niz2));
+
+
+
 
 // --------------------
+
+
 
