@@ -1,3 +1,4 @@
+
 /*
 // za ispis 
 console.log("hello world");
@@ -1476,7 +1477,6 @@ var bool
 
 
 
-
 // const niz = [
 //   [1, 3, 6],
 //   [4, 9, 1],
@@ -1785,6 +1785,10 @@ var bool
 
 
 // --------------------
+
+
+
+// OBJEKTIIIIIIIIIIIIIIIIIIIII
 
 
 
