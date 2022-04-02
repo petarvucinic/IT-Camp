@@ -1837,6 +1837,23 @@ var bool
 // -------------------------------------------
 
 
+const containsAllElements = (firstArray, secondArray) => {
+    // your code
+    if(firstArray.length <= secondArray.length){
+        for(let i = 0; i < firstArray.length; i++){
+            if(!(secondArray.indexOf(firstArray[i]) >= 0)){
+                return false
+            }
+        }
+    } else {
+        return false
+    }
+
+    return true
+}
+
+console.log(containsAllElements(["monday", "tuesday"], ["tuesday", "monday", "k"])) // false
+
 
 // --------------------------------------
 
