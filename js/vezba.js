@@ -1724,8 +1724,6 @@ var bool
 
 // --------------------
 
-
-
 // const buildArray = (someArray, indexes) => {
 //   // your code
 //   res = [];
@@ -1746,9 +1744,101 @@ var bool
 // console.log(buildArray(a, b));
 // // ["tue", "thur", "fri"]
 
-
-
-
 // -----------------------
+
+// const move = (someArray, firstIndex, secondIndex) => {
+//   for (let i = 0; i < someArray.length; i++) {
+//     if (i === firstIndex) {
+//         pom = someArray[i]
+//         someArray.splice(i, 1)
+//         someArray.splice(secondIndex, 0, pom);
+//     }
+//   }
+//   return someArray;
+// };
+
+// console.log(move([4, 5, 7], 1, 0)); // [4, 7, 5]
+
+// /------------------------------------------------------------
+
+// const sortTheArray = (someArray) => {
+//   res = [];
+//   var ar1 = [];
+//   var ar2 = [];
+//   for (let i = 0; i < someArray.length; i++) {
+//     if (typeof someArray[i] === "int") {
+//       ar1.push(someArray[i]);
+//     } else {
+//       ar2.push(someArray[i]);
+//     }
+//   }
+//   ar1.sort(function (a, b) {
+//     return a - b;
+//   });
+//   ar2.sort();
+//   for (let x of ar1) {
+//     res.push(x);
+//   }
+//   for (let x of ar2) {
+//     res.push(x);
+//   }
+
+//   return res;
+// };
+
+// console.log(sortTheArray(["b", 6, "a", "q", 7, 2]));
+// [2, 6, 7, "a", "b", "q"]
+
+// ----------------------------------------
+
+
+
+// const alphabetize = (someArray) => {
+//     // your code
+//     res = []
+//     for(let i = 0; i < someArray.length; i++){
+//         someArray[i].sort()
+//         res.push(someArray[i])
+//     }
+//     return res
+// }
+
+// const jumbledAlphabet = [
+//     ["e", "d", "f"],
+//     ["a", "c", "b"],
+//     ["m", "o", "n"]
+// ]
+// console.log(alphabetize(jumbledAlphabet))
+// // [["a", "b", "c"], ["d", "e", "f"], ["m", "n", "o"]]
+
+
+
+// ----------------------
+
+
+
+// const findCommonWords = (firstArray, secondArray) => {
+//     var res = []
+//     for(let x of firstArray){
+//         for(let y of secondArray){
+//             if (x === y) res.push(x)
+//         }
+//     }
+//     return res
+// }
+
+// firstArray = ["dog", "cat", "parrot"]
+// secondArray = ["lizard", "rat", "cat", "parrot"]
+
+// console.log(findCommonWords(firstArray, secondArray))
+
+
+
+// -------------------------------------------
+
+
+
+// --------------------------------------
+
 
 // OBJEKTIIIIIIIIIIIIIIIIIIIII
