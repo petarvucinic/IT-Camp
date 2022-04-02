@@ -1,4 +1,3 @@
-
 /*
 // za ispis 
 console.log("hello world");
@@ -1370,7 +1369,6 @@ var bool
 
 //  odavde*****
 
-
 // arr = [1, 2, 3, 4, 65, 22, 76, 4465, 98];
 
 // let i = 0;
@@ -1388,12 +1386,7 @@ var bool
 //     i++;
 // }
 
-
-
 // -------
-
-
-
 
 // arr = [1, 266, 3, 4, 65, 22, 76, 4465, 98];
 
@@ -1416,11 +1409,7 @@ var bool
 //   }
 // }
 
-
-
 // ---------------------------
-
-
 
 // const arr = [34, -345, -1, 100];
 // function smallest(arr) {
@@ -1440,8 +1429,6 @@ var bool
 // res = smallest(arr);
 // console.log(res)
 
-
-
 // /------------------------------------------
 
 // const arr = [1, 0, 3, -4, 14, 65, -17, 45, 4]
@@ -1450,7 +1437,6 @@ var bool
 // console.log(arr[1])
 
 // /------------------------------------------
-
 
 // pyramid(0) => [ ]
 // pyramid(1) => [ [1] ]
@@ -1471,11 +1457,7 @@ var bool
 // n = 3
 // pyramid(n)
 
-
-
 // /------------- arr
-
-
 
 // const niz = [
 //   [1, 3, 6],
@@ -1508,11 +1490,7 @@ var bool
 
 // console.log(niz)
 
-
-
 // -------------------
-
-
 
 // const niz = [
 //   [1, 3, 6],
@@ -1537,11 +1515,7 @@ var bool
 //   console.log()
 // }
 
-
-
 // ------------------------------------------------
-
-
 
 // const niz = [
 //   [1, 3, 6],
@@ -1558,12 +1532,7 @@ var bool
 //   console.log()
 // }
 
-
-
 // -----------------------------
-
-
-
 
 // const niz = [
 //   [1, 0, 0],
@@ -1584,14 +1553,9 @@ var bool
 // }
 // console.log(provera(niz));
 
-
-
 // ----------------------------
 
-
 // nes ne radi
-
-
 
 // function orderBySum(niz) {
 //   res = [];
@@ -1629,15 +1593,9 @@ var bool
 
 // console.log(orderBySum(niz))
 
-
-
 // -----------------------------------------------------------
 
-
-
 // -----
-
-
 
 // const fnod = (somearray) => {
 //   for(let i = 0; i < somearray.length; i++){
@@ -1651,11 +1609,7 @@ var bool
 
 // console.log(fnod(["A", "B", "A", "A"]))
 
-
-
 // -------------------------
-
-
 
 // ne radi nes
 // function spl(niz) {
@@ -1681,11 +1635,7 @@ var bool
 
 // console.log(spl(niz));
 
-
-
 // ----
-
-
 
 // function spl(some){
 //   let parni = []
@@ -1707,7 +1657,6 @@ var bool
 
 // console.log(spl([2, 3, 7, 6, 2, 4, 9]))
 
-
 // krace
 
 // function spl(arr){
@@ -1724,14 +1673,9 @@ var bool
 //   }
 // }
 
-
 // console.log(spl([2, 3, 7, 6, 2, 4, 9]))
 
-
-
 // -----------------------------------------------------
-
-
 
 // function mix(niz, niz2) {
 //   var res = [];
@@ -1759,9 +1703,7 @@ var bool
 // niz2 = [1, 3, 4, 5];
 // console.log(mix(niz, niz2));
 
-
 // boljjiiiii
-
 
 // const mix = (ar1, ar2) => {
 //   res = []
@@ -1776,19 +1718,37 @@ var bool
 //   return res
 // }
 
-
 // niz = ["a", "b", "c"];
 // niz2 = [1, 3, 4, 5];
 // console.log(mix(niz, niz2));
-
-
-
 
 // --------------------
 
 
 
+// const buildArray = (someArray, indexes) => {
+//   // your code
+//   res = [];
+//   for (let i = 0; i < someArray.length; i++) {
+//     for (let j = 0; j < indexes.length; j++) {
+//       if (i === indexes[j]) {
+//         res.push(someArray[i]);
+//       }
+//     }
+//   }
+//   return res;
+// };
+// //      0     1      2       3      4
+//         //   [tue wed ]
+// a = ["mon", "tue", "wed", "thur", "fri"];
+// b = [1, 3, 2];
+// // console.log(buildArray(["mon", "tue", "wed", "thur", "fri"], [1, 3, 4])
+// console.log(buildArray(a, b));
+// // ["tue", "thur", "fri"]
+
+
+
+
+// -----------------------
+
 // OBJEKTIIIIIIIIIIIIIIIIIIIII
-
-
-
