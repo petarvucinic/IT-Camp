@@ -144,23 +144,61 @@
 
 // ----------------------------------------------
 
-var library = [
-  {
-    title: "The Road Ahead",
-    author: "Bill Gates",
-    libraryID: 1254,
-  },
-  {
-    title: "Walter Isaacson",
-    author: "Steve Jobs",
-    libraryID: 4264,
-  },
-  {
-    title: "Mockingjay: The Final Book of The Hunger Games",
-    author: "Suzanne Collins",
-    libraryID: 3245,
-  },
-];
+// var library = [
+//   {
+//     title: "The Road Ahead",
+//     author: "Bill Gates",
+//     libraryID: 1254,
+//   },
+//   {
+//     title: "Walter Isaacson",
+//     author: "Steve Jobs",
+//     libraryID: 4264,
+//   },
+//   {
+//     title: "Mockingjay: The Final Book of The Hunger Games",
+//     author: "Suzanne Collins",
+//     libraryID: 3245,
+//   },
+// ];
 
-library.sort(function(a, b){return b.libraryID - a.libraryID})
-console.log(library)
+// library.sort(function(a, b){return b.libraryID - a.libraryID})
+// console.log(library)
+
+// ----------------
+
+// var obj = {
+//         title: "The Road Ahead",
+//         author: "Bill Gates",
+//         libraryID: 1254,
+//       }
+
+// res = []
+// for(let i in obj){
+//     pom = []
+//     pom.push(i)
+//     pom.push(obj[i])
+//     res.push(pom)
+// }
+
+// console.log(res)
+
+// ---------------------------------
+
+var std = {
+  title: "The Road Ahead",
+  author: "Bill Gates",
+  libraryID: 1254,
+};
+
+
+const fn = (std, pom) => {
+    if (std[pom]){
+        return true
+    } else {
+        return false
+    }
+}
+
+
+console.log(fn(std, "titl"))
