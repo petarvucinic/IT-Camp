@@ -13,36 +13,46 @@
 
 // let pers1 = new Person("Pero", "Vuc", 17, ()=>{return "132456789"})
 
-// // let pers2 = new Person("Ajsa", "Bes", 17)
+// let pers2 = new Person("Ajsa", "Bes", 17)
 // console.log(pers1)
 // console.log(pers1.birthYear())
 // console.log(Person.test())
-// // console.log(pers2)
+// console.log(pers2)
 
-// // console.log(Person.birthYear(pers1))
+// console.log(Person.birthYear(pers1))
 
 // ------------------------------
 
-class Car {
-  constructor(brand) {
-    this.carname = brand;
-  }
+// class Car {
+//   constructor(brand) {
+//     this.carname = brand;
+//   }
 
-  present() {
-    return "i have a" + this.carname;
-  }
-}
+//   present() {
+//     return "i have a" + this.carname;
+//   }
+// }
 
-class Model extends Car {
-  constructor(brand, mod) {
-    super(brand);
-    this.model = mod;
-  }
+// class Model extends Car {
+//   constructor(brand, mod) {
+//     super(brand);
+//     this.model = mod;
+//   }
 
-  show() {
-      return this.present() + "it is a " + this.model
-  }
-}
+//   show() {
+//       return this.present() + "it is a " + this.model
+//   }
+// }
 
-let myCar = new Model("Ford", ":Mustang")
-console.log(myCar)
+// let myCar = new Model("Ford", " Mustang")
+// console.log(myCar)
+
+
+
+
+
+
+
+
+
+
