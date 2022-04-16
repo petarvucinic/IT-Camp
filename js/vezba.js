@@ -1744,7 +1744,10 @@ var bool
 // console.log(buildArray(a, b));
 // // ["tue", "thur", "fri"]
 
+
 // -----------------------
+
+
 
 // const move = (someArray, firstIndex, secondIndex) => {
 //   for (let i = 0; i < someArray.length; i++) {
@@ -1758,6 +1761,10 @@ var bool
 // };
 
 // console.log(move([4, 5, 7], 1, 0)); // [4, 7, 5]
+
+
+
+
 
 // /------------------------------------------------------------
 
@@ -1837,25 +1844,53 @@ var bool
 // -------------------------------------------
 
 
-const containsAllElements = (firstArray, secondArray) => {
-    // your code
-    if(firstArray.length <= secondArray.length){
-        for(let i = 0; i < firstArray.length; i++){
-            if(!(secondArray.indexOf(firstArray[i]) >= 0)){
-                return false
-            }
-        }
-    } else {
-        return false
-    }
+// const containsAllElements = (firstArray, secondArray) => {
+//     // your code
+//     if(firstArray.length <= secondArray.length){
+//         for(let i = 0; i < firstArray.length; i++){
+//             if(!(secondArray.indexOf(firstArray[i]) >= 0)){
+//                 return false
+//             }
+//         }
+//     } else {
+//         return false
+//     }
 
-    return true
-}
+//     return true
+// }
 
-console.log(containsAllElements(["monday", "tuesday"], ["tuesday", "monday", "k"])) // false
+// console.log(containsAllElements(["monday", "tuesday"], ["tuesday", "monday", "k"])) // false
 
 
 // --------------------------------------
 
+
+// const arr = [1,1,2,2,3,4,4,5];
+// const onlyUnique = arr => {
+//    const res = [];
+//    for(let i = 0; i < arr.length; i++){
+//       if(arr.lastIndexOf(arr[i]) !== arr.indexOf(arr[i])){
+//          continue;
+//       };
+//       res.push(arr[i]);
+//    };
+//    return res;
+// };
+
+
+
+// console.log(onlyUnique([1, 1, 2, 3, 3, 4, 4, 5])) // [2, 5]
+
+
+
+
+
+
+
+
+
+
+
+// -------------------------------------
 
 // OBJEKTIIIIIIIIIIIIIIIIIIIII
