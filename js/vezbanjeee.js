@@ -246,7 +246,25 @@
 
 
 
+// --------------------------------
 
+
+const buildArray = (someArray, indexes) => {
+    // your code
+    var res = []
+    for(let i = 0; i < someArray.length; i++){
+        for(let x in indexes){
+
+            if (i === x){
+                res.push(someArray[i])
+            }
+        }
+    }
+    return res
+}
+
+console.log(buildArray(["mon", "tue", "wed", "thur", "fri"], [1, 3, 4]) 
+// ["tue", "thur", "fri"]
 
 
 
