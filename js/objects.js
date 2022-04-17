@@ -91,6 +91,7 @@
 // console.log(a)
 // console.log(c)
 
+// bitno
 // let {a, b} = aB/
 
 // -------
@@ -144,6 +145,7 @@
 
 // ----------------------------------------------
 
+
 // var library = [
 //   {
 //     title: "The Road Ahead",
@@ -165,6 +167,8 @@
 // library.sort(function(a, b){return b.libraryID - a.libraryID})
 // console.log(library)
 
+
+
 // ----------------
 
 // var obj = {
@@ -185,20 +189,41 @@
 
 // ---------------------------------
 
-var std = {
-  title: "The Road Ahead",
-  author: "Bill Gates",
-  libraryID: 1254,
-};
+// var std = {
+//   title: "The Road Ahead",
+//   author: "Bill Gates",
+//   libraryID: 1254,
+// };
 
 
-const fn = (std, pom) => {
-    if (std[pom]){
-        return true
-    } else {
-        return false
-    }
-}
+// const fn = (std, pom) => {
+//     if (std[pom]){
+//         return true
+//     } else {
+//         return false
+//     }
+// }
 
 
-console.log(fn(std, "titl"))
+// console.log(fn(std, "titl"))
+
+// ------------------------------------
+
+
+
+// const obj1 = {
+//     name : "ajsa",
+//     age : 17
+// }
+
+// console.log(Object.entries(obj1))
+
+// const obj2 = new Object
+
+// obj2.name = "pero"
+// obj2.age = 17
+
+// console.log(obj2)
+
+// console.log(Object.getOwnPropertyNames(obj1))
+
