@@ -13,8 +13,8 @@
 
 // let pers1 = new Person("Pero", "Vuc", 17, ()=>{return "132456789"})
 
-// let pers2 = new Person("Ajsa", "Bes", 17)
-// console.log(pers1)
+// // let pers2 = new Person("Ajsa", "Bes", 17)
+// console.log(pers1.method1())
 // console.log(pers1.birthYear())
 // console.log(Person.test())
 // console.log(pers2)
@@ -46,6 +46,45 @@
 
 // let myCar = new Model("Ford", " Mustang")
 // console.log(myCar)
+
+
+
+
+
+// -------------------
+
+
+// class Kola {
+//     constructor(marka, godinap){
+//         this.marka = marka;
+//         this.godinap = godinap;
+//     }
+//     ispis = () => {
+//         return `Vi vozite ${this.marka} i on je ${this.godinap}to goditse`
+//     }
+//     static funk = () => {
+//         return this.marka
+//     }
+// }
+
+// romeo = new Kola("Alfa", 2005)
+// console.log(Kola.funk())
+
+
+
+// -----------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
