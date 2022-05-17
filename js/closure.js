@@ -55,9 +55,7 @@
 
 // execute();
 
-
 // --------------------------------
-
 
 // var count = 1;
 // const func = () => {
@@ -67,6 +65,57 @@
 
 // func()
 // console.log(count)
+
+// ------------------------------------
+
+// const displayValue = (value) => {
+//   console.log(value);
+// };
+
+// const calculator = (a, b, func) => {
+//   value = a + b;
+//   //   return value
+//   func(value);
+// };
+
+// calculator(2, 4, displayValue);
+
+// // displayValue(calculator(2, 5))
+
+
+// --------------------------
+
+// const displayValue = (value) => {
+//   console.log(value);
+// };
+
+// const func = () => {}
+
+// setTimeout(() => {
+//     displayValue("something")
+// }, 3000)
+
+// // setTimeout(displayValue, 3000)
+
+// console.log("123456789")
+
+
+// ----------------------------------
+
+
+
+function displayValue(value){
+    for(let i = 0; i < 24; i ++){
+        for(let j = 0; j < 60; j++){
+            console.log(`${i}:${j}`)
+        }
+    }
+}
+
+setInterval(() => {
+    displayValue(`${1}`)
+}, 5000)
+
 
 
 
