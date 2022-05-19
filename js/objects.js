@@ -211,19 +211,19 @@
 
 
 
-// const obj1 = {
-//     name : "ajsa",
-//     age : 17
-// }
+const obj1 = {
+    name : "ajsa",
+    age : 17
+}
 
 // console.log(Object.entries(obj1))
 
-// const obj2 = new Object
+const obj2 = new Object
 
-// obj2.name = "pero"
-// obj2.age = 17
+obj2.name = "pero"
+obj2.age = 17
 
-// console.log(obj2)
+console.log(obj2)
 
-// console.log(Object.getOwnPropertyNames(obj1))
+console.log(Object.getOwnPropertyNames(obj1))
 
