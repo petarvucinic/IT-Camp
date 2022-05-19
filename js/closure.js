@@ -104,17 +104,43 @@
 
 
 
-function displayValue(value){
-    for(let i = 0; i < 24; i ++){
-        for(let j = 0; j < 60; j++){
-            console.log(`${i}:${j}`)
-        }
-    }
-}
+// function displayValue(value){
+//     for(let i = 0; i < 24; i ++){
+//         for(let j = 0; j < 60; j++){
+//             console.log(`${i}:${j}`)
+//         }
+//     }
+// }
 
-setInterval(() => {
-    displayValue(`${1}`)
-}, 5000)
+// setInterval(() => {
+//     displayValue(`${1}`)
+// }, 5000)
+
+
+// ******************************************
+
+
+
+// const func = () => {
+//     const date = new Date()
+//     console.log(date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds())
+// }
+
+// setInterval(func, 1000);
+
+
+
+// -------------------------------
+
+
+// const arr = 
+
+
+
+
+
+
+
 
 
 
