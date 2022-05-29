@@ -87,8 +87,26 @@
 
 // console.log(arr);
 
-
 // ---------------------------
 
+// const words = ['spray', 'limit', 'exuberant', 'destruciton', 'abc']
 
-const words = ['spray', 'limit', 'exuberant', 'destruciton', 'abc']
+// let filtered = [12, 5, 8, 130, 44].filter(el => el > 9)
+// console.log(filtered)
+
+// --------------------
+
+const arr = [-3, -2, -1, 0, 1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 13];
+
+function prime(el) {
+  for (let i = 2; i < el; i++) {
+    if (el % i == 0) {
+      return false;
+    }
+  }
+  if (el > 0) return true;
+}
+const res = arr.filter((el) => {
+  return prime(el);
+});
+console.log(res);
