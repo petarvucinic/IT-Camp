@@ -45,41 +45,39 @@
 //   .then((message) => console.log(message))
 // );
 
-
 // ----------------------------------------
 
+// function resolve(value, ms) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => resolve(value), ms)
+//     })
+// }
+
+// function reject(reason, ms) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => reject(reason), ms)
+//     })
+// }
+
+// Promise.race([
+//     reject(new Error("bad error!"), 2000),
+//     resolve(2, 1000),
+//     resolve(1222222, 2000),
+// ])
+//     .then((value) => console.log("this is Then block ", value))
+//     .catch((value) => console.log("this is catch block ", value))
+
+// --------------------------------------------
+
+const sayHello = async () => {
+  console.log("hello!");
+};
+
+const greeting = async () => {
+  await sayHello();
+  console.log("How are you?");
+};
+greeting();
 
 
-function resolve(value, ms) {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => resolve(value), ms)
-    })
-}
-
-function reject(reason, ms) {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => reject(reason), ms)
-    })
-}
-
-Promise.race([
-    reject(new Error("bad error!"), 2000),
-    resolve(2, 1000),
-    resolve(1222222, 2000),
-])
-    .then((value) => console.log("this is Then block ", value))
-    .catch((value) => console.log("this is catch block ", value))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// ----------------------------------
