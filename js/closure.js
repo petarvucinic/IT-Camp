@@ -1,4 +1,4 @@
-// let count = 7
+// let count = 7;
 
 // function foo() {
 //   let count = 0;
@@ -6,18 +6,18 @@
 // }
 
 // foo();
-// console.log(count)
+// console.log(count);
 
 // function outerFunc() {
-//     let outerVar = "I am outside"
-//     function innerFunc() {
-//         console.log(outerVar)
-//     }
+//   let outerVar = "I am outside";
+//   function innerFunc() {
+//     console.log(outerVar);
+//   }
 
-//     innerFunc()
+//   innerFunc();
 // }
 
-// outerFunc()
+// outerFunc();
 
 // --------------
 
@@ -40,6 +40,9 @@
 
 // ---------------------------
 
+// closure fja se zatvara i pamti vrednosti iz outer "scopa"
+// i koristi ih kasnije
+
 // function outerFunc() {
 //   let outerVar = "I am outside";
 //   function innerFunc() {
@@ -59,12 +62,11 @@
 
 // var count = 1;
 // const func = () => {
-//     console.log(count)
+//   console.log(count);
+// };
 
-// }
-
-// func()
-// console.log(count)
+// func();
+// console.log(count);
 
 // ------------------------------------
 
@@ -80,10 +82,11 @@
 
 // calculator(2, 4, displayValue);
 
-// // displayValue(calculator(2, 5))
-
+// displayValue(calculator(2, 5))
 
 // --------------------------
+
+// kad fji prosledim fju je callback
 
 // const displayValue = (value) => {
 //   console.log(value);
@@ -99,10 +102,7 @@
 
 // console.log("123456789")
 
-
 // ----------------------------------
-
-
 
 // function displayValue(value){
 //     for(let i = 0; i < 24; i ++){
@@ -116,10 +116,7 @@
 //     displayValue(`${1}`)
 // }, 5000)
 
-
 // ******************************************
-
-
 
 // const func = () => {
 //     const date = new Date()
@@ -128,39 +125,56 @@
 
 // setInterval(func, 1000);
 
-
-
 // -------------------------------
 
+// function prva() {
+//   druga();
+//   console.log("prva");
+// }
 
-// const arr = 
+// function druga() {
+//   treca();
+//   console.log("druga");
+// }
+
+// function treca() {
+//   console.log("treca");
+// }
+
+// prva();
+
+// // ---------------------------
+
+// function poslePosla(arg1) {
+//   console.log("Ispis vr", arg1);
+// }
+// function mainF(cl) {
+//   for (let i = 0; i < 100000; i++) {}
+//   //   console.log("zavrseno");
+//   cl();
+// }
+
+// mainF(poslePosla);
+
+
+// -----------------------------
 
 
 
+const prvaf = () => {
+  var closure = "closure"
+  const drugaF = () => {
+    console.log("korsitim " + closure)
+  }
+  return drugaF
+}
+
+pomocna = prvaf()
+pomocna()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// --------------------------------
 
 
 
