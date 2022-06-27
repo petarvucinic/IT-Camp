@@ -111,15 +111,9 @@
 // });
 // console.log(res);
 
-
 // -----------------------
 
-
-
 // ------------------------------------------------
-
-
-
 
 // const arr = [-3, -2, -1, 0, 1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 13];
 
@@ -136,13 +130,81 @@
 // });
 // console.log(res);
 
-
-
 // -------------------------------------
 
+// every svi elementi ispunjavaju => true ili false
+// some barem jedan i vraca true ili false
+
+// ----------
+
+// arr = [14, 12, 11, 13, 16, 18]
+
+// console.log(arr.every(el => el > 9 && el < 100))
+
+// -------------------
 
 
-// every svi elementi ispunjavaju
+// const friends = [
+//   {
+//     name: "Anna",
+//     books: ["Bible", "Harry Potter"],
+//     age: 21,
+//   },
+//   {
+//     name: "Bob",
+//     books: ["War and peace", "Romeo and JUliet"],
+//     age: 21,
+//   },
+//   {
+//     name: "Alice",
+//     books: ["The lord of the rings", "The shinig"],
+//     age: 21,
+//   },
+// ];
+
+
+// let res = friends.reduce((pv, cv) => {
+//     return [...pv , ...cv.books]}, ['any']) 
+// console.log(res)
+
+
+
+// -------------------------------------------
+
+
+// const arr = [-3, -2, -1, 0, 1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 13];
+
+// function prime(el) {
+//   for (let i = 2; i < el; i++) {
+//     if (el % i == 0) {
+//       return false;
+//     }
+//   }
+//   if (el > 0) return true;
+// }
+// const res = arr.filter((el) => {
+//   return prime(el);
+// });
+// console.log(res);
+
+
+
+// -------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
