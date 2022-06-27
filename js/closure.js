@@ -161,20 +161,38 @@
 
 
 
-const prvaf = () => {
-  var closure = "closure"
-  const drugaF = () => {
-    console.log("korsitim " + closure)
-  }
-  return drugaF
-}
+// const prvaf = () => {
+//   var closure = "closure"
+//   const drugaF = () => {
+//     console.log("korsitim " + closure)
+//   }
+//   return drugaF
+// }
 
-pomocna = prvaf()
-pomocna()
+// pomocna = prvaf()
+// pomocna()
 
 
 
 // --------------------------------
+
+
+// function prvf(){
+//   nzm = 1234567890
+//   function drgaf(){
+//     console.log(nzm)
+//   }
+//   return drgaf
+// }
+
+// ja = prvf()
+
+// ja()
+
+
+// ----------------------------------------
+
+
 
 
 
